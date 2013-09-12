@@ -1,0 +1,52 @@
+﻿.DefaultFont {
+color: #6E432D;
+font-size: 15px;
+font-weight: 800;
+font-family: 微软雅黑;
+position: absolute;
+z-index: 19;
+word-break: break-all;
+line-height: 15px;
+}
+.RedFont {
+color: #990000;
+}
+#Experience {
+position: absolute;
+z-index: 15;
+}
+.HeroLVSmall {
+width: 9px;
+height: 11px;
+position: absolute;
+z-index: 101;
+top: 34px;
+background: url(../res/boss/Lv_Val.png) no-repeat;
+}
+#bossKillText {
+position: absolute;
+color: white;
+font-size: 16px;
+left: 43px;
+top: 199px;
+font-weight: bold;
+width: 134px;
+text-align: center;
+}
+.ButtonBig {
+width: 91px;
+height: 32px;
+position: absolute;
+}
+.ButtonSmall {
+width: 70px;
+height: 40px;
+position: absolute;
+z-index: 10;
+background-repeat: no-repeat;
+}
+#KillButton {
+right:40px;
+width:91px;
+
+}

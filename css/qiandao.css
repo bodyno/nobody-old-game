@@ -1,0 +1,118 @@
+﻿
+#l_left {
+    width: 245px;
+    height: 322px;
+    background-image: url(../res/loginReward/info.png);
+    position: relative;
+    left: 40px;
+    top: 6px;
+}
+
+#loginReward {
+    width: 708px;
+    height: 335px;
+    background: #5A2A04;
+    position: relative;
+    top: 65px;
+    left: 52px;
+    border-radius: 10px;
+    border: 2px solid #391400;
+}
+
+#l_center {
+    width: 410px;
+    height: 328px;
+    position: absolute;
+    left: 292px;
+    top: 1px;
+}
+
+#l_day {
+    width: 372px;
+    height: 260px;
+    background-image: url(../res/loginReward/day.png);
+    position: absolute;
+    left: 12px;
+    top: 13px;
+    z-index: 2;
+}
+
+.l_item {
+    width: 78px;
+    height: 78px;
+    background-image: url(../res/loginReward/small.png);
+    float: left;
+    margin-left: 4px;
+    margin-top: 4px;
+}
+
+.l_click {
+    width: 78px;
+    height: 78px;
+    float: left;
+    margin-left: 4px;
+    margin-top: 4px;
+}
+
+#l_clickArea {
+    width: 410px;
+    height: 328px;
+    position: absolute;
+    top: 1px;
+    z-index: 3;
+}
+
+.l_box1 {
+    width: 78px;
+    height: 78px;
+    background-image: url(../res/loginReward/box.png);
+}
+
+#l_select {
+    width: 80px;
+    height: 80px;
+    background-image: url(../res/loginReward/select.png);
+    position: absolute;
+    margin-left: 3px;
+    margin-top: 3px;
+    z-index: 2;
+}
+
+#l_data {
+    position: absolute;
+    left: 11px;
+    top: 31px;
+    color: white;
+    line-height: 25px;
+    font-weight: bold;
+}
+
+#l_some {
+    color: #F2E234;
+    position: absolute;
+    left: 11px;
+    top: 90px;
+}
+
+#l_reward {
+    position: absolute;
+    left: 21px;
+    top: 187px;
+    line-height: 25px;
+    color: #47BBD2;
+    font-weight: bold;
+}
+
+#LoginRewardBtn {
+    display: block;
+}
+
+.l_item_select {
+    width: 78px;
+    height: 78px;
+    background-image: url(../res/loginReward/yes.png);
+}
+
+#LoginRewardIcon {
+    background-image: url(../res/public/icon/loginReward.png);
+}

@@ -1,0 +1,149 @@
+﻿#MineBg {
+    width:854px;
+    height: 480px;
+    position: absolute;
+    z-index: 70;
+    background: url(../res/mine/MiningAreaBg.png) no-repeat center;
+}
+
+.MuneItem {
+    position: absolute;
+    z-index: 1;
+    bottom: 10px;
+}
+
+#BackCity {
+    width: 60px;
+    height: 60px;
+    background: url(../res/battle/backcity.png);
+}
+
+#MinePageTitle {
+    position: absolute;
+    z-index: 10;
+    width: 272px;
+    height: 61px;
+    background: url(../res/mine/MiningAreaTxtBg.png) no-repeat;
+    top: 4px;
+    text-align: center;
+    color: White;
+    font-family: 微软雅黑;
+    font-size: 17px;
+    line-height: 61px;
+    font-weight: 300;
+}
+
+.MineBulid {
+    position: absolute;
+    z-index: 10;
+    width: 200px;
+    height: 120px;
+    background: url(../res/mine/MiningArea.png) no-repeat;
+}
+
+.GemIcon {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    z-index: 10;
+    left: 256px;
+    top: 38px;
+}
+
+
+
+.CampaignNameRight {
+    background-image: url(../res/public/right.png);
+    position: absolute;
+    z-index: 5;
+    width: 60px;
+    height: 60px;
+}
+.CampaignNameLeft {
+    background-image: url(../res/public/left.png);
+    position: absolute;
+    z-index: 5;
+    width: 60px;
+    height: 60px;
+}
+
+#MineDataDialog {
+position: absolute;
+z-index: 100;
+width: 498px;
+height: 339px;
+background: url(../res/mine/MiningInformation.png) no-repeat;
+top: 70px;
+}
+.close {
+width: 59px;
+height: 59px;
+background: url(../res/dialog/Shop_close.png) no-repeat;
+position: absolute;
+z-index: 20;
+top: 15px;
+left: 402px;
+}
+.DefaultFont_14 {
+color: #6E432D;
+font-size: 14px;
+font-weight: 700;
+font-family: 微软雅黑;
+line-height: 14px;
+position:absolute;
+}
+.close {
+width: 59px;
+height: 59px;
+background: url(../res/mine/Shop_close.png) no-repeat;
+position: absolute;
+z-index: 20;
+top: 15px;
+left: 402px;
+}
+
+.messTextMain
+{
+	position:absolute;
+	z-index:10001;
+	top:150px;
+	height:37px;
+	text-align:center;
+	width:auto;	
+}
+
+.messTextRight
+{	
+	background:url(../res/mine/PromptBox1.png) no-repeat;
+	background-position:0 -74px;
+	width:16px;
+	height:37px;
+}
+
+.messText
+{
+	font-size:17px;
+	font-family:微软雅黑;
+	color:Red;
+	height:37px;
+	line-height:38px;
+	font-weight:900;
+	background:url(../res/mine/PromptBox1.png) repeat-x;
+	background-position:0 -37px;
+	width:100%;
+}
+#MineBulidBg {
+    background-image:url(../res/mine/bg.png);
+    width:376px;
+    height:121px;
+    position:absolute;
+left: 28px;
+top: 9px;
+}
+#MineFightContext {
+color:#26E50E;
+position:absolute;
+left:15px;
+top:169px;
+font-size:18px;
+}

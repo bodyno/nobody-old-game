@@ -1,0 +1,301 @@
+﻿body {
+    -webkit-user-select: none;
+    margin: 0;
+}
+
+#main {
+    background-image: url(../res/login/bg2.jpg);
+    display: none;
+}
+
+.swiper-container {
+    width: 957px;
+    height: 371px;
+    top: 165px;
+}
+
+.man {
+    width: 319px;
+    height: 371px;
+    position: absolute;
+    margin-left: 10px;
+}
+
+#man0 {
+    background-image: url(../res/login/1.png);
+    left: -42px;
+    top: 80px;
+    -webkit-transform: scaleX(-1) scale(0.8);
+    opacity: 0.6;
+}
+
+#man1 {
+    background-image: url(../res/login/2.png);
+    left: 218px;
+    top: 40px;
+    -webkit-transform: scale(1.4);
+}
+
+#man2 {
+    background-image: url(../res/login/3.png);
+    left: 479px;
+    top: 80px;
+    opacity: 0.6;
+    -webkit-transform: scale(0.8);
+}
+
+#manSelect {
+    position: relative;
+    width: 800px;
+    height: 480px;
+}
+
+#light {
+    width: 381px;
+    height: 401px;
+    background: url(../res/login/light.png);
+    position: absolute;
+    left: 196px;
+    top: 3px;
+    -webkit-transform: scale(1.5);
+}
+
+#detail {
+    width: 138px;
+    height: 37px;
+    background-image: url(../res/login/detail.png);
+    position: absolute;
+    left: 100px;
+    top: 69px;
+    z-index: 2;
+    background-position-y: -37px;
+}
+
+#title {
+    background-image: url(../res/login/title.png);
+    width: 340px;
+    height: 67px;
+    position: absolute;
+    top: 10px;
+    z-index: 1;
+}
+
+#skillName {
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    position: absolute;
+    top: 46px;
+    text-align: center;
+    width: 340px;
+}
+
+.arrow {
+    width: 70px;
+    height: 46px;
+    background-image: url(../res/login/arrow.png);
+    position: absolute;
+}
+
+#arrow1 {
+    left: 140px;
+    top: 370px;
+}
+
+#arrow2 {
+    left: 590px;
+    top: 370px;
+    -webkit-transform: scaleX(-1);
+}
+
+#selectName {
+    width: 430px;
+    height: 64px;
+    position: absolute;
+    bottom: 30px;
+}
+
+#nameBg {
+    width: 182px;
+    height: 52px;
+    background-image: url(../res/login/nameBg.png);
+    float: left;
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#nameBg:focus {
+    outline: 0 none;
+}
+
+#boult {
+    float: left;
+    height: 64px;
+    width: 60px;
+    background-image: url(../res/login/boult.png);
+    position: absolute;
+    left: 148px;
+    top: -5px;
+}
+
+#startGame {
+    width: 187px;
+    height: 59px;
+    background-image: url(../res/login/begin.png);
+    float: right;
+}
+
+#cartoon, #cartoonDiv2 {
+    position: absolute;
+    background: black;
+    overflow: hidden;
+}
+
+#cartoonDiv2 {
+    display: none;
+}
+
+#cartoonMain, #cartoonContain2 {
+    width: 854px;
+    height: 480px;
+    position: absolute;
+}
+
+#cartoon1 {
+    position: absolute;
+    width: 553px;
+    height: 225px;
+    top: 6px;
+    left: 6px;
+    background-image: url(../res/login/cartoon/1.png);
+    display: none;
+}
+
+#cartoon2 {
+    position: absolute;
+    width: 524px;
+    height: 261px;
+    top: 213px;
+    left: 6px;
+    background-image: url(../res/login/cartoon/2.png);
+    display: none;
+}
+
+#cartoon3 {
+    position: absolute;
+    width: 341px;
+    height: 468px;
+    top: 6px;
+    left: 507px;
+    background-image: url(../res/login/cartoon/3.png);
+    display: none;
+}
+
+#cancelBtn {
+    position: absolute;
+    width: 97px;
+    height: 50px;
+    top: 4px;
+    right: 0px;
+    background-image: url(../res/login/back.png);
+}
+
+#chooseBtn, #goBtn2 {
+    width: 187px;
+    height: 59px;
+    background-image: url(../res/login/btn.png);
+    position: absolute;
+    bottom: 20px;
+    right: 0px;
+    background-position-x: -187px;
+    z-index: 1;
+    display: none;
+}
+
+#goBtn2 {
+    background-position-x: -561px;
+}
+
+#cartoon_1 {
+    width: 287px;
+    height: 189px;
+    position: absolute;
+    left: 6px;
+    top: 6px;
+    background-image: url(../res/login/cartoon/4-1.png);
+    display: none;
+}
+
+#cartoon_2 {
+    width: 237px;
+    height: 143px;
+    position: absolute;
+    left: 298px;
+    top: 6px;
+    background-image: url(../res/login/cartoon/5.png);
+    display: none;
+}
+
+#cartoon_3 {
+    width: 321px;
+    height: 107px;
+    position: absolute;
+    left: 527px;
+    top: 6px;
+    background-image: url(../res/login/cartoon/6.png);
+    display: none;
+}
+
+#cartoon_4 {
+    width: 842px;
+    height: 206px;
+    position: absolute;
+    left: 6px;
+    top: 69px;
+    background-image: url(../res/login/cartoon/7.png);
+    display: none;
+}
+
+#cartoon_5 {
+    width: 842px;
+    height: 193px;
+    position: absolute;
+    left: 6px;
+    top: 281px;
+    background-image: url(../res/login/cartoon/8.png);
+    display: none;
+}
+
+.popDivLeft, .popDivRight {
+    height: 34px;
+    width: 26px;
+    background-image: url(../res/public/scroll2.png);
+    float: left;
+}
+
+.popDivRight {
+    -webkit-transform: scaleX(-1);
+}
+
+#popDiv {
+    position: absolute;
+    z-index: 99999;
+}
+
+.popDivCenter {
+    font-size: 30px;
+    font-weight: 900;
+    color: red;
+    z-index: 99999;
+    text-shadow: -1px -1px 0 #000,1px -1px #000,1px 1px #000,-1px 1px #000;
+    background-image: url(../res/public/scroll.png);
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    font-size: 20px;
+    white-space: nowrap;
+}

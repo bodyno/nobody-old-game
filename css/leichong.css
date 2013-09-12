@@ -1,0 +1,52 @@
+﻿.C_R_MnumeClick {
+    width: 84px;
+    height: 34px;
+    position: absolute;
+    z-index: 16;
+    background: url(../res/leichong/RechargeColumn.png) no-repeat;
+}
+
+.C_R_Mnume {
+    width: 84px;
+    height: 34px;
+    position: absolute;
+    z-index: 16;
+    background: url(../res/leichong/RechargeColumn.png) no-repeat;
+    background-position: 0 -34px;
+}
+
+.C_R_MuneFontClick {
+    width: 71px;
+    height: 16px;
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    left: 6px;
+    top: 9px;
+    font-size: 13px;
+    line-height: 15px;
+    color: #990000;
+}
+
+.C_R_MuneFont {
+    width: 71px;
+    height: 16px;
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    top: 9px;
+    left: 6px;
+    color: #fff;
+    font-size: 13px;
+    line-height: 15px;
+}
+
+.RewardBox {
+    width: 110px;
+    height: 48px;
+    position: absolute;
+    z-index: 10;
+    background: url(../res/leichong/Task_RewardBg.png) no-repeat;
+    overflow: hidden;
+}
+

@@ -1,0 +1,160 @@
+﻿#dialogMain {
+    width: 443px;
+    height: 304px;
+    background: url(../res/notice/MainUIBg.png) no-repeat;
+    position: absolute;
+    z-index: 3;
+}
+
+.dialogTitle {
+    position: absolute;
+    z-index: 15;
+    left: 61px;
+    top: 5px;
+    height: 32px;
+    font-family: 微软雅黑;
+    font-size: 24px;
+    color: #FFDB00;
+    line-height: 25px;
+}
+
+.ListItem {
+    width: 52px;
+    height: 44px;
+    position: absolute;
+    z-index: 16;
+    background: url(../res/notice/Column.png) no-repeat;
+    background-position: 0 -44px;
+}
+
+.MuneFont {
+    width: 52px;
+    height: 17px;
+    position: absolute;
+    z-index: 1;
+    font-size: 16px;
+    top: 11px;
+    left: 10px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.ListItemClick {
+    width: 52px;
+    height: 44px;
+    position: absolute;
+    z-index: 16;
+    background: url(../res/notice/Column.png) no-repeat;
+}
+
+.MuneFontClick {
+    width: 52px;
+    height: 17px;
+    position: absolute;
+    z-index: 1;
+    left: 10px;
+    top: 11px;
+    font-size: 16px;
+    color: #990000;
+    font-weight: 600;
+}
+
+#BulletinDialog {
+    width: 298px;
+    height: 235px;
+    position: absolute;
+    z-index: 1;
+    left: 130px;
+    top: 48px;
+    background: url(../res/notice/AnnBg.png) no-repeat;
+}
+
+.DetialBox {
+    width: 94px;
+    position: absolute;
+    z-index: 1;
+    height: 49px;
+    top: 98px;
+    left: 3px;
+    color: #5D2F19;
+    text-align: left;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 14px;
+    font-family: 微软雅黑;
+    overflow: hidden;
+}
+
+.TitleFont {
+    color: #5D2C19;
+}
+
+#BulletinDialogLeft {
+    width: 111px;
+    height: 235px;
+    position: absolute;
+    z-index: 1;
+    left: 16px;
+    top: 48px;
+    background: url(../res/notice/UIHero.png) no-repeat;
+}
+
+.GongGaoBtnShow {
+    position: absolute;
+    line-height: 48px;
+    width: 104px;
+    height: 48px;
+    background: url(../res/notice/AnnBut1.png) no-repeat;
+    text-align: center;
+    font-size: 16px;
+    color: White;
+    font-weight: 600;
+    -webkit-text-shadow: -1px -1px 0 #000,1px -1px #000,1px 1px #000,-1px 1px #000;
+    -moz-text-shadow: -1px -1px 0 #000,1px -1px #000,1px 1px #000,-1px 1px #000;
+    text-shadow: -1px -1px 0 #000,1px -1px #000,1px 1px #000,-1px 1px #000;
+    filter: Dropshadow(offx=-1,offy=-1,color=black) Dropshadow(offx=1,offy=-1,color=black) Dropshadow(offx=1,offy=1,color=black) Dropshadow(offx=-1,offy=1,color=black);
+}
+
+.GongGaoBtn {
+    width: 104px;
+    height: 48px;
+    background: url(../res/notice/AnnBut2.png) no-repeat;
+    text-align: center;
+    font-size: 16px;
+    color: White;
+    font-weight: 600;
+    -webkit-text-shadow: -1px -1px 0 #000,1px -1px #000,1px 1px #000,-1px 1px #000;
+    -moz-text-shadow: -1px -1px 0 #000,1px -1px #000,1px 1px #000,-1px 1px #000;
+    text-shadow: -1px -1px 0 #000,1px -1px #000,1px 1px #000,-1px 1px #000;
+    position: absolute;
+    line-height: 48px;
+}
+
+.PageNumber {
+    color: White;
+    font-size: 16px;
+    font-weight: 800;
+    font-family: 微软雅黑;
+    position: absolute;
+    z-index: 18;
+    line-height: 25px;
+}
+
+.ButtonLeft {
+    width: 28px;
+    height: 28px;
+    background: url(../res/notice/xlbnt2.png) no-repeat;
+    position: absolute;
+    z-index: 14;
+    top: 207px;
+    left: 2px;
+}
+
+.ButtonRight {
+    width: 28px;
+    height: 28px;
+    background: url(../res/notice/xrbnt2.png) no-repeat;
+    position: absolute;
+    z-index: 14;
+    top: 207px;
+}

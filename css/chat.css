@@ -1,0 +1,194 @@
+﻿#chatdivsmall {
+    position: fixed;
+    z-index: 30;
+    width: 0px;
+    height: 53px;
+    z-index: 1;
+    line-height: 16px;
+    font-size: 20px;
+    padding: 3px 0 0 0;
+    left: 58px;
+}
+
+#chatdivsmall div {
+    position: absolute;
+    width: 310px;
+    color: White;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+    height:26px;
+    line-height:26px;
+    overflow:hidden;
+}
+
+.ChatShow {
+    position: fixed;
+    z-index: 1;
+    width: 96px;
+    height: 49px;
+    background: url(../res/chat/button.png) no-repeat;
+    background-position-y:-49px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+}
+
+.ChatTabBtn {
+    position: fixed;
+    z-index: 1;
+    width: 96px;
+    height: 49px;
+    background: url(../res/chat/button.png) no-repeat;
+    background-position-y:-49px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 40px;
+    color: #6E432D;
+}
+
+.ButtonSmall {
+    width: 70px;
+    height: 40px;
+    position: absolute;
+    z-index: 10;
+    background-repeat: no-repeat;
+}
+
+.DefaultFont_14 {
+    color: #6E432D;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 微软雅黑;
+    position: absolute;
+    z-index: 19;
+    word-break: break-all;
+    line-height: 14px;
+}
+
+#chatwrapper {
+    position: absolute;
+    z-index: 1;
+    overflow: auto;
+    font-size: 14px;
+    font-family: 微软雅黑;
+    height: 225px;
+    top: 55px;
+    left: 0px;
+    color: #fff;
+    padding: 0;
+}
+
+#chatscroller {
+    position: absolute;
+    z-index: 1;
+    -webkit-touch-callout: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    width: 100%;
+    padding: 0;
+    height: auto;
+}
+
+#chatscroller ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    text-align: left;
+}
+
+#chatscroller ul li {
+    height: auto;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+#chatscroller li table tr td div {
+    display: block;
+    float: left;
+    vertical-align:top;
+}
+
+.chatnick {
+    color: #ffff99;
+    text-decoration: underline;
+}
+
+#chatscroller li table tr td {
+    vertical-align: middle;
+}
+
+#chatscroller li table tr td img {
+    height: 32px;
+    vertical-align: middle;
+}
+
+.ButtonSmall {
+    width: 70px;
+    height: 40px;
+    position: absolute;
+    z-index: 10;
+    background-repeat: no-repeat;
+}
+
+#FaceDiv {
+    position: absolute;
+    z-index: 30;
+    width: 366px;
+    height: 289px;
+    border: 1px solid #fff;
+    background: #000;
+    top: 131px;
+    left: 290px;
+}
+
+#FaceDiv img {
+    position: relative;
+    margin: 5px 0 0 7px;
+    border: none;
+    width: 32px;
+    height: 32px;
+}
+#chattable td,#chattable tr {
+line-height:36px;
+}
+.chatClose {
+width: 60px;
+height: 60px;
+background: url(../res/battle/backcity.png);
+position: fixed;
+z-index:1;
+top: 15px;
+left: 402px;
+}
+.chat_text {
+    width:57px;
+    height:33px;
+    background-image:url(../res/chat/text.png);
+    position: absolute;
+    left: 18px;
+    top: 8px;
+    background-position-x:-57px;
+}
+.chatActive {
+background-position-y:0px;
+}
+.chatActive div {
+background-position-x:0px;
+}
+#chatText {
+    width: 420px;
+    height: 36px;
+    background: url(../res/chat/Chat_BG.png);
+    background-repeat:repeat-x;
+    top: 614px;
+    left: 80px;
+    font-size: 19px;
+    line-height: 38px;
+    z-index: 1;
+    padding-right: 20px;
+    padding-left: 20px;
+    position: fixed;
+    border: none;
+    color:#a9a9a9;
+}

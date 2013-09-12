@@ -1,0 +1,218 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="viewport" content="width=device-width,user-scalable=no,target-densitydpi=240" />
+<meta content="telephone=no" name="format-detection" />
+    <title>众将听令</title>
+    <link href="css/city.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="wrapper">
+        <div id="scroller">
+            <ul>
+                <li>
+                    <div id="main">
+                        <div id="building">
+                            <div id="b_bag"></div>
+                            <div id="b_arena"></div>
+                            <div id="b_battle">
+                                <div id="no"></div>
+                            </div>
+                            <div id="b_equip"></div>
+                            <div id="b_faction"></div>
+                        </div>
+                        <div id="team">
+                            <div class="hero">
+                                <table class="hero_something">
+                                    <tr>
+                                        <td class="man_job2"></td>
+                                        <td class="heroDetail2"></td>
+                                    </tr>
+                                </table>
+                                <div class="cityHeroLv"></div>
+                                <div class="shidi"></div>
+                                <div class="shangdi"></div>
+                                <div id="man1" class="man2"></div>
+                            </div>
+                            <div class="hero">
+                                <table class="hero_something">
+                                    <tr>
+                                        <td class="man_job2"></td>
+                                        <td class="heroDetail2"></td>
+                                    </tr>
+                                </table>
+                                <div class="cityHeroLv"></div>
+                                <div class="shidi"></div>
+                                <div class="shangdi"></div>
+                                <div id="man2" class="man2"></div>
+                            </div>
+                            <div class="hero" id="leader">
+                                <table class="hero_something">
+                                    <tr>
+                                        <td class="man_job2"></td>
+                                        <td class="heroDetail2"></td>
+                                    </tr>
+                                </table>
+                                <div id="teamHeroLead"></div>
+                                <div class="cityHeroLv"></div>
+                                <div class="shidi"></div>
+                                <div class="shangdi"></div>
+                                <div id="man3" class="man2"></div>
+                            </div>
+                            <div class="hero">
+                                <table class="hero_something">
+                                    <tr>
+                                        <td class="man_job2"></td>
+                                        <td class="heroDetail2"></td>
+                                    </tr>
+                                </table>
+                                <div class="cityHeroLv"></div>
+                                <div class="shidi"></div>
+                                <div class="shangdi"></div>
+                                <div id="man4" class="man2"></div>
+                            </div>
+                            <div class="hero">
+                                <table class="hero_something">
+                                    <tr>
+                                        <td class="man_job2"></td>
+                                        <td class="heroDetail2"></td>
+                                    </tr>
+                                </table>
+                                <div class="cityHeroLv"></div>
+                                <div class="shidi"></div>
+                                <div class="shangdi"></div>
+                                <div id="man5" class="man2"></div>
+                            </div>
+                            <div class="heroDiv"></div>
+                            <div class="heroDiv"></div>
+                            <div class="heroDiv" id="heroDivLead"></div>
+                            <div class="heroDiv"></div>
+                            <div class="heroDiv"></div>
+                            <div id="flag">
+                                <div id="flagData1">
+                                </div>
+                                <div id="flagData2">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="userData">
+        <div id="u_nick"></div>
+        <div id="u_lv"></div>
+        <div id="u_strength">
+            <div id="u_strength_content"></div>
+        </div>
+        <div id="u_coin"></div>
+        <div id="u_exp">
+            <div id="u_exp_content"></div>
+        </div>
+        <div id="u_gold"></div>
+        <div id="u_viplv"></div>
+        <div id="u_position"></div>
+        <div id="u_add"></div>
+        <div id="u_addClick"></div>
+    </div>
+    <div id="icon" class="icon">
+        <div id="ChatBar"></div>
+        <div id="iconT">
+            <div id="Sign" class="iconItem_T"></div>
+            <div id="Reward" class="iconItem_T"></div>
+            <div id="Active" class="iconItem_T"></div>
+            <div id="Mine" class="iconItem_T"></div>
+            <div id="Zhi" class="iconItem_T"></div>
+        </div>
+        <div id="iconL">
+            <div id="Task" class="iconItem_L"></div>
+            <div id="Message" class="iconItem_L"></div>
+        </div>
+        <div id="iconR">
+            <div id="Shop" class="iconItem_R"></div>
+            <div id="Set" class="iconItem_R"></div>
+        </div>
+        <div id="iconRT">
+        </div>
+        <div id="iconB">
+            <div id="Hero" class="iconItem_B"></div>
+            <div id="School" class="iconItem_B"></div>
+            <div id="Formation" class="iconItem_B"></div>
+            <div id="Equip" class="iconItem_B"></div>
+            <div id="Friend" class="iconItem_B"></div>
+        </div>
+        <div id="Switch" class="iconItem_B"></div>
+        <div id="Chat">
+            <div id="ChatIcon"></div>
+        </div>
+        <div id="chatdivsmall" style="bottom:6px;">
+            <div style="top:6px;" id="chatdiv1"></div>
+            <div style="top:27px;" id="chatdiv2"></div>
+        </div>
+    </div>
+    <div id="audio"></div>
+    <div id="mask"></div>
+    <div id="dialog"></div>
+    <div id="temp"></div>
+    <div id="topMessDiv">
+        <div style="position: absolute; display:none; z-index: 10000; background: url(res/public/infoBg.png) no-repeat; width: 536px; height: 34px; overflow: hidden;" id='messtitle'>
+            <div style='overflow: hidden; position: absolute; z-index: 400; width: 536px; height: 34px;' id="messContain">
+                <div id='titletext' style='font-size: 16px;font-weight: 500; height: auto; line-height: 34px; width: 536px; color: white; position: absolute; overflow: hidden; text-align: center;'></div>
+            </div>
+        </div>
+    </div>
+    <div id="NewGuidDiv">
+        <div id="NewGuidMask"></div>
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/no_scroll.js"></script>
+    <script src="js/city.js"></script>
+    <script src="js/public.js"></script>
+    <script src="js/battle.js"></script>
+    <script src="js/recharge.js"></script>
+    <script src="js/bag.js"></script>
+    <script src="js/json.js"></script>
+    <script src="js/team.js"></script>
+    <script src="js/hero.js"></script>
+    <script src="js/LvUp.js"></script>
+    <script src="js/piece.js"></script>
+    <script src="js/adv.js"></script>
+    <script src="js/refine.js"></script>
+    <script src="js/heroEquip.js"></script>
+    <script src="js/task.js"></script>
+    <script src="js/jquery.timers.js"></script>
+    <script src="js/message.js"></script>
+    <script src="js/arena.js"></script>
+    <script src="js/shop.js"></script>
+    <script src="js/nobody_swiper.js"></script>
+    <script src="js/friend.js"></script>
+    <script src="js/yxz.js"></script>
+    <script src="js/takeFriend.js"></script>
+    <link href="css/boss.css" rel="stylesheet" />
+    <script src="js/boss.js"></script>
+    <script src="js/LoginReward.js"></script>
+    <link href="css/loginReward.css" rel="stylesheet" />
+    <script src="js/chat.js"></script>
+    <link href="css/chat.css" rel="stylesheet" />
+    <link href="css/qiandao.css" rel="stylesheet" />
+    <script src="js/qiandao.js"></script>
+    <link href="css/leichong.css" rel="stylesheet" />
+    <script src="js/leichong.js"></script>
+    <link href="css/notice.css" rel="stylesheet" />
+    <script src="js/notice.js"></script>
+    <script src="js/lineup.js"></script>
+    <script src="js/vip.js"></script>
+    <script src="js/activity.js"></script>
+    <script src="js/reward.js"></script>
+    <script src="js/underCity.js"></script>
+    <script src="js/NewGuide.js"></script>
+    <script src="js/system.js"></script>
+    <link href="css/nobody_swiper.css" rel="stylesheet" />
+    <link href="css/bag.css" rel="stylesheet" />
+    <script src="js/mine.js"></script>
+    <link href="css/mine.css" rel="stylesheet" />
+    <script src="js/middleFall.js"></script>
+</body>
+</html>

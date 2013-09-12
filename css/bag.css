@@ -1,0 +1,458 @@
+﻿#bag {
+    width: 800px;
+    height: 480px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+
+.jiao {
+    width: 113px;
+    height: 78px;
+    background: url(../res/dialog/wj.png);
+    position: absolute;
+}
+
+.shangjiao {
+}
+
+.xiajiao {
+    right: 0;
+    -webkit-transform: scaleX(-1);
+}
+
+.zuojiao {
+    bottom: 0;
+    -webkit-transform: scaleY(-1);
+}
+
+.youjiao {
+    bottom: 0;
+    right: 0;
+    -webkit-transform: scaleY(-1) scaleX(-1);
+}
+
+.shangwaibian {
+    width: 575px;
+    height: 78px;
+    background: url(../res/dialog/wjBian1.png) repeat-x;
+    position: absolute;
+    left: 113px;
+}
+
+.xiawaibian {
+    width: 575px;
+    height: 78px;
+    background: url(../res/dialog/wjBian1.png) repeat-x;
+    -webkit-transform: scaleY(-1);
+    bottom: 0;
+    position: absolute;
+    left: 113px;
+}
+
+.zuowaibian {
+    width: 76px;
+    height: 325px;
+    background: url(../res/dialog/wjBian2.png) repeat-y;
+    position: absolute;
+    top: 78px;
+}
+
+.youwaibian {
+    width: 76px;
+    height: 325px;
+    background: url(../res/dialog/wjBian2.png) repeat-y;
+    -webkit-transform: scaleX(-1);
+    position: absolute;
+    top: 78px;
+    right: 0;
+}
+
+#likuan {
+    width: 744px;
+    height: 378px;
+    left: 28px;
+    top: 60px;
+    position: absolute;
+    background: #5A2A04;
+    border-radius: 10px;
+}
+
+.lijiao {
+    background: url(../res/dialog/lijiao.png);
+    width: 50px;
+    height: 50px;
+    position: absolute;
+}
+
+#shanglijiao {
+}
+
+#xialijiao {
+    right: 0;
+    -webkit-transform: scaleX(-1);
+}
+
+#zuolijiao {
+    bottom: 0;
+    -webkit-transform: scaleY(-1);
+}
+
+#youlijiao {
+    bottom: 0;
+    right: 0;
+    -webkit-transform: scaleY(-1) scaleX(-1);
+}
+
+#shanglijiaobian {
+    width: 686px;
+    height: 50px;
+    background: url(../res/dialog/lijiaobian.png) repeat-x;
+    position: absolute;
+    left: 50px;
+}
+
+#xialijiaobian {
+    width: 686px;
+    height: 50px;
+    background: url(../res/dialog/lijiaobian.png) repeat-x;
+    position: absolute;
+    bottom: 0;
+    left: 50px;
+    -webkit-transform: scaleY(-1);
+}
+
+#zuolijiaobian {
+    width: 50px;
+    height: 278px;
+    background: url(../res/dialog/lijiaobian2.png) repeat-y;
+    position: absolute;
+    top: 50px;
+}
+
+#youlijiaobian {
+    width: 50px;
+    height: 278px;
+    background: url(../res/dialog/lijiaobian2.png) repeat-y;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    -webkit-transform: scaleX(-1);
+}
+
+#neikuan {
+    width: 610px;
+    height: 358px;
+    position: absolute;
+    top: 70px;
+    left: 42px;
+    background: #DA9D5C;
+    border-radius: 10px;
+}
+
+#shangneijiao {
+    width: 50px;
+    height: 50px;
+    background: url(../res/dialog/shangneijiao.png);
+    position: absolute;
+}
+
+#xianeijiao {
+    width: 50px;
+    height: 50px;
+    background: url(../res/dialog/xianeijiao.png);
+    position: absolute;
+    right: 0;
+}
+
+#zuoneijiao {
+    width: 50px;
+    height: 50px;
+    background: url(../res/dialog/zuoneijiao.png);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+#youneijiao {
+    width: 50px;
+    height: 50px;
+    background: url(../res/dialog/youneijiao.png);
+    position: absolute;
+    bottom: 0;
+}
+
+#shangneibian {
+    width: 552px;
+    height: 50px;
+    background: url(../res/dialog/neibian.png) repeat-x;
+    position: absolute;
+    left: 50px;
+}
+
+#xianeibian {
+    width: 552px;
+    height: 50px;
+    background: url(../res/dialog/neibian3.png) repeat-x;
+    position: absolute;
+    top: 308px;
+    left: 50px;
+}
+
+#zuoneibian {
+    width: 50px;
+    height: 258px;
+    background: url(../res/dialog/neibian4.png);
+    position: absolute;
+    right: 0;
+    top: 50px;
+}
+
+#youneibian {
+    width: 50px;
+    height: 258px;
+    background: url(../res/dialog/neibian2.png) repeat-y;
+    position: absolute;
+    top: 50px;
+}
+
+.itemBag {
+    position: relative;
+    left: 30px;
+    width: 580px;
+    height: 335px;
+    top: 12px;
+}
+
+.item {
+    width: 62px;
+    height: 62px;
+    background: url(../res/dialog/box.png);
+    float: left;
+    margin-bottom: 5px;
+    margin-left: 15px;
+    border-radius: 10px;
+}
+
+#bagOption {
+    font-size: 28px;
+    text-align: center;
+    line-height: 60px;
+    position: absolute;
+    top: 0;
+    font-weight: bold;
+    z-index: 1;
+    right: 0;
+    margin-right: -106px;
+}
+
+.option {
+    background: black;
+    color: white;
+    width: 110px;
+    height: 60px;
+    margin-top: 10px;
+    background: url(../res/dialog/switch.png);
+}
+
+.select {
+    background: url(../res/dialog/select.png);
+    color: #3F0C00;
+}
+
+#title {
+    position: absolute;
+    z-index: 1;
+    left: 240px;
+}
+
+#titleLeft {
+    width: 112px;
+    height: 61px;
+    background: url(../res/dialog/title1.png);
+    float: left;
+}
+
+#titleCenter {
+    width: 114px;
+    height: 51px;
+    background: url(../res/dialog/title2.png);
+    float: left;
+    margin-top: 5px;
+}
+
+#titleRight {
+    width: 112px;
+    height: 61px;
+    background: url(../res/dialog/title1.png);
+    float: left;
+    -webkit-transform: scaleX(-1);
+}
+
+#titleContext {
+    background: url(../res/dialog/context.png) no-repeat;
+    margin-top: 11px;
+    height: 28px;
+    width: 114px;
+}
+
+#close,#tempClose {
+    width: 53px;
+    height: 53px;
+    background: url(../res/dialog/close.png);
+    z-index: 1;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+
+#rope {
+    width: 29px;
+    height: 198px;
+    background: url(../res/dialog/rope.png);
+    position: absolute;
+    left: -4px;
+    top: 51px;
+    -webkit-transform:scaleX(-1);
+}
+
+.itemColor {
+    width: 54px;
+    height: 54px;
+    margin-left: 4px;
+    margin-top: 4px;
+    position: absolute;
+}
+
+.good {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+}
+
+.canUse {
+    background: url(../res/dialog/canUse.png);
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    z-index: 1;
+    margin-top: 4px;
+    margin-left: 4px;
+}
+
+.bagPagination {
+    text-align: center;
+    margin-top: 5px;
+    position: fixed;
+    z-index: 1;
+}
+
+.bagPagination .swiper-pagination-switch {
+    display: inline-block;
+    width: 32px;
+    height: 33px;
+    border-radius: 10px;
+    background: url(../res/dialog/free.png);
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.bagPagination .swiper-active-switch {
+    background: url(../res/dialog/active.png);
+}
+
+
+
+#dialogDetail {
+    position: fixed;
+    width: 340px;
+    min-height: 230px;
+    border: 3px solid #CCCC00;
+    border-radius: 10px;
+    background: url(../res/dialog/detailbg.png);
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: none;
+}
+
+.itemDetail {
+    position: absolute;
+    z-index: 1;
+    min-width: 200px;
+    color: #00FF00;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.itemLv {
+    font-size: 20px;
+}
+
+.detailData {
+    color: #00FFFF;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.detailFont {
+    color: white;
+    margin-left: 20px;
+}
+
+.itemButton {
+    width: 112px;
+    height: 49px;
+    background: url(../res/dialog/detailButton.png);
+    color: white;
+    position: absolute;
+    font-size: 30px;
+    text-align: center;
+    line-height: 49px;
+    left: 342px;
+    top: 0;
+}
+
+#detailMask {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.bagNotOpen {
+    background: url(../res/dialog/box2.png);
+    width: 54px;
+    height: 54px;
+    margin-left: 4px;
+    margin-top: 4px;
+}
+
+#bagTemp {
+    width: 560px;
+    position: fixed;
+    font-size: 20px;
+    font-weight: bold;
+    color: #330000;
+    display: none;
+}
+
+#tempContent {
+    width: 400px;
+    float: left;
+    margin-left: 40px;
+}
+
+#tempButton {
+    width: 120px;
+    height: 50px;
+    background: black;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    float: right;
+    line-height: 50px;
+    border-radius:15px;
+}

@@ -1,0 +1,7773 @@
+﻿ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#no {
+    width: 163px;
+    height: 165px;
+    background-image: url(../res/animate/1.png);
+    position: absolute;
+    left: 16px;
+    top: 46px;
+    /*-webkit-animation: no2 1s infinite ease;*/
+    z-index: 2;
+}
+
+/*@-webkit-keyframes no2 {
+    0% {
+        background-image: url(../res/animate/1.png);
+    }
+
+    25% {
+        background-image: url(../res/animate/2.png);
+    }
+
+    50% {
+        background-image: url(../res/animate/3.png);
+    }
+
+    75% {
+        background-image: url(../res/animate/4.png);
+    }
+
+    100% {
+        background-image: url(../res/animate/5.png);
+    }
+}*/
+
+
+*:focus {
+    outline: none;
+}
+
+#ChatBar {
+    width: 100%;
+    position: fixed;
+    height: 50px;
+    background: url(../res/city/icon/ChatBar.png);
+    z-index: 1;
+    bottom: 8px;
+}
+
+body {
+    margin: 0;
+    -webkit-user-select: none;
+    -webkit-text-size-adjust: none;
+    font-family: '微软雅黑';
+    overflow: hidden;
+    /*font-family: nobody;*/
+}
+
+#topMessDiv {
+    height: 34px;
+    overflow: hidden;
+    top: 50px;
+    position:absolute;
+    width:100%;
+    z-index:1;
+}
+
+#main {
+    background: url(../res/city/CityBg.jpg);
+}
+
+#wrapper {
+    position: absolute;
+    z-index: 1;
+}
+
+#scroller li {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-transform: translateZ(0);
+}
+
+#icon {
+    width: 400px;
+    position: absolute;
+    overflow: hidden;
+}
+
+.iconItem_B {
+    width: 60px;
+    height: 60px;
+    position: relative;
+    float: left;
+    margin-left: 4px;
+}
+
+.iconItem_R {
+    width: 60px;
+    height: 60px;
+    position: relative;
+    margin-top: 4px;
+    background-repeat: no-repeat;
+}
+
+#iconB {
+    position: fixed;
+    bottom: 4px;
+    right: 64px;
+    height: 60px;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+#iconT {
+    position: fixed;
+    top: 4px;
+    right: 4px;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+.iconItem_T {
+    width: 60px;
+    height: 60px;
+    position: relative;
+    display: inline-block;
+    margin-left: 4px;
+}
+
+#Notice {
+    background-image: url(../res/city/icon/Notice.png);
+}
+
+#Sign {
+    background-image: url(../res/city/icon/Sign.png);
+}
+
+#Battle {
+    background-image: url(../res/city/icon/Battle.png);
+}
+
+#Mine {
+    background-image: url(../res/city/icon/Mine.png);
+}
+
+#Reward {
+    background-image: url(../res/city/icon/Reward.png);
+}
+
+#Shop {
+    background-image: url(../res/city/icon/Shop.png);
+}
+
+#Hero {
+    background-image: url(../res/city/icon/Hero.png);
+}
+
+#Formation {
+    background-image: url(../res/city/icon/Formation.png);
+}
+
+#School {
+    background-image: url(../res/city/icon/School.png);
+}
+
+#Equip {
+    background-image: url(../res/city/icon/Equip.png);
+}
+
+#Friend {
+    background-image: url(../res/city/icon/Friend.png);
+}
+
+#Set {
+    background-image: url(../res/city/icon/Set.png);
+}
+
+#Switch {
+    background-image: url(../res/city/icon/Switch.png);
+    position: absolute;
+    right: 4px;
+    z-index: 1;
+    bottom: 3px;
+    /*-webkit-animation:switchAnimate 0.5s infinite linear;*/
+}
+
+@-webkit-keyframes switchAnimate {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(90deg);
+    }
+}
+
+@-webkit-keyframes switchAnimate2 {
+    0% {
+        -webkit-transform: rotate(90deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(0deg);
+    }
+}
+
+
+
+#iconR {
+    right: 4px;
+    position: fixed;
+    bottom: 70px;
+    z-index: 1;
+}
+
+#iconRT {
+    right: 4px;
+    position: fixed;
+    top: 70px;
+    z-index: 1;
+}
+
+.iconItem_RT {
+    width: 60px;
+    height: 60px;
+    position: relative;
+    margin-top: 4px;
+}
+
+#GodIcon {
+    background: url(../res/city/icon/God.png);
+}
+
+#FristIcon {
+    background: url(../res/city/icon/Frist.png);
+}
+
+#Active {
+    background: url(../res/city/icon/Active.png);
+}
+
+#Notice {
+    background: url(../res/city/icon/Notice.png);
+}
+
+#Zhi {
+    background: url(../res/city/icon/Zhi.png);
+}
+
+.iconItem_L {
+    width: 60px;
+    height: 60px;
+    position: relative;
+    margin-top: 4px;
+}
+
+#iconL {
+    left: 10px;
+    position: fixed;
+    top: 81px;
+    z-index: 1;
+}
+
+#Task {
+    background: url(../res/city/icon/Task.png);
+}
+
+#Message {
+    background: url(../res/city/icon/Message.png);
+}
+
+#ChatIcon {
+    left: 8px;
+    z-index: 1;
+    position: fixed;
+    bottom: 3px;
+    background: url(../res/city/icon/Chat.png);
+    width: 60px;
+    height: 60px;
+}
+
+#dialog {
+    z-index: 3;
+}
+
+#mask, #tempMask, #tempMask2 {
+    opacity: 0.3;
+    background: black;
+    position: absolute;
+    z-index: 1;
+}
+
+
+/*征战*/
+#warnDialog {
+    z-index: 2;
+    position: absolute;
+}
+
+#DialogOpen {
+    width: 430px;
+    height: 310px;
+    position: absolute;
+}
+
+.Openjiao {
+    background: url(../res/dialog/wj.png);
+    width: 113px;
+    height: 73px;
+}
+
+#bagbian1, #bagbian2 {
+    width: 204px;
+}
+
+#bagbian3, #bagbian4 {
+    height: 164px;
+}
+
+#mainDialog {
+    width: 708px;
+    height: 335px;
+    background: #5A2A04;
+    position: relative;
+    top: 65px;
+    left: 52px;
+    border-radius: 10px;
+    border: 2px solid #391400;
+}
+
+#dialogButton {
+    height: 54px;
+    width: 114px;
+    background: url(../res/dialog/openButton.png);
+    position: relative;
+    left: 155px;
+    top: 50px;
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    font-family: Arial;
+    text-align: center;
+    line-height: 54px;
+    cursor: pointer;
+}
+
+#showDialogClose {
+    width: 53px;
+    height: 53px;
+    background: url(../res/dialog/close.png);
+    position: absolute;
+    z-index: 1;
+    right: -35px;
+    top: 10px;
+}
+
+#dialogMaskSmall {
+    position: absolute;
+    background: black;
+    opacity: 0.3;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+#team {
+    width: 800px;
+    height: 165px;
+    position: absolute;
+    z-index: 3;
+    bottom: 59px;
+}
+
+.hero {
+    width: 125px;
+    height: 165px;
+    position: absolute;
+    z-index: 1;
+}
+
+.heroDiv {
+    width: 125px;
+    height: 165px;
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    -webkit-transform: scale(0.8);
+}
+
+.hero:nth-child(1) {
+    left: 125px;
+}
+
+.hero:nth-child(2) {
+    left: 250px;
+}
+
+.hero:nth-child(3) {
+    left: 0;
+}
+
+.hero:nth-child(3) .man2 {
+    -webkit-transform: scale(0.8) scaleX(1);
+}
+
+.hero:nth-child(4) {
+    left: 375px;
+}
+
+.hero:nth-child(5) {
+    left: 500px;
+}
+
+.heroDiv:nth-child(6) {
+    left: 125px;
+}
+
+.heroDiv:nth-child(7) {
+    left: 250px;
+}
+
+.heroDiv:nth-child(8) {
+    left: 0;
+}
+
+.heroDiv:nth-child(9) {
+    left: 375px;
+}
+
+.heroDiv:nth-child(10) {
+    left: 500px;
+}
+
+.man {
+    width: 256px;
+    height: 256px;
+    background-position: center;
+    position: absolute;
+    margin-top: -84px;
+    margin-left: -60px;
+    -webkit-transform: scale(0.8) scaleX(-1);
+}
+
+.d_man {
+    width: 256px;
+    height: 256px;
+    background-position: center;
+    position: absolute;
+    top: -73px;
+    left: -63px;
+}
+
+.man2 {
+    width: 256px;
+    height: 256px;
+    background-position: center;
+    position: absolute;
+    margin-top: -57px;
+    margin-left: -60px;
+    -webkit-transform: scale(0.8) scaleX(-1);
+}
+
+.heroDetail {
+    color: orange;
+    font-size: 17px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #000;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    top: -25px;
+}
+
+.heroDetail2 {
+    font-size: 17px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #000;
+    z-index: 1;
+    white-space: nowrap;
+}
+
+.shidi {
+    width: 97px;
+    height: 58px;
+    background-image: url(../res/man/sdbg1.png);
+    background-position: center;
+    position: absolute;
+    bottom: -3px;
+    left: 18px;
+    z-index: -1;
+}
+
+/*更换队伍*/
+#hero {
+    width: 800px;
+    height: 480px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+    /*-webkit-animation-name: bouncein;*/
+}
+
+#boss {
+    width: 800px;
+    height: 480px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+
+#teamChange {
+    width: 708px;
+    height: 335px;
+    background: #5A2A04;
+    position: relative;
+    top: 65px;
+    left: 52px;
+    border-radius: 10px;
+    border: 2px solid #391400;
+}
+
+.heroChange {
+    margin-left: 2px;
+    margin-bottom: 2px;
+    position: relative;
+}
+
+.takeChange {
+    margin-bottom: 0px;
+    margin-left: 2px;
+    float: left;
+    position: relative;
+}
+
+.heroHeadBg {
+    width: 78px;
+    height: 78px;
+    background: url(../res/head/headBg.png) center;
+    float: left;
+    position: relative;
+    z-index: 1;
+}
+
+.lineup_heroHeadBg {
+    width: 76px;
+    height: 76px;
+    background-size: 76px 76px;
+    float: left;
+    position: relative;
+    z-index: 1;
+    margin-left: 14px;
+    margin-top: 13px;
+}
+
+.heroHeadColor {
+    width: 78px;
+    height: 78px;
+    position: absolute;
+    z-index: 1;
+}
+
+.heroHead {
+    width: 78px;
+    height: 78px;
+    position: absolute;
+    border-radius: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.heroChangeDetail {
+    width: 330px;
+    height: 78px;
+    background: url(../res/public/slideNew.png);
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    float: left;
+    line-height: 30px;
+    margin-left: -73px;
+    position: relative;
+    margin-top: 3px;
+    background-position-y: -156px;
+}
+
+.heroChangePage {
+    margin-top: 5px;
+    margin-left: 29px;
+}
+
+.check {
+    width: 37px;
+    height: 31px;
+    position: absolute;
+    background: url(../res/public/choose.png);
+    left: 291px;
+    top: 8px;
+}
+
+.checkHover {
+    background-position-x: -37px;
+}
+
+.checkLock {
+    width: 32px;
+    height: 32px;
+    background: url(../res/public/c2.png);
+}
+
+.checkForeverLock {
+    width: 32px;
+    height: 32px;
+    background: url(../res/public/c2.png);
+}
+
+#heroChangeBtn {
+    width: 120px;
+    height: 40px;
+    position: absolute;
+    z-index: 1;
+    border-radius: 40px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 40px;
+    right: 50px;
+    bottom: 20px;
+}
+
+#heroPageData {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    bottom: 27px;
+    left: 80px;
+    text-shadow: -1px -1px 0 #000,1px -1px #000,1px 1px #000,-1px 1px #000;
+}
+/*英雄详情*/
+#detail_dialog {
+    width: 516px;
+    height: 410px;
+    background-image: url(../res/yxz/messbg.png);
+    position: absolute;
+    z-index: 1;
+}
+
+#detail_left {
+    width: 300px;
+    height: 480px;
+    float: left;
+}
+
+#detail_top {
+    width: 500px;
+    height: 180px;
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+#detail_bottom {
+    width: 276px;
+    height: 284px;
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+}
+
+#detail_name {
+    font-weight: bold;
+    font-size: 30px;
+    color: red;
+    position: relative;
+    left: 100px;
+    top: 80px;
+}
+
+#detail_hero {
+    width: 200px;
+    height: 220px;
+    left: 40px;
+    top: 70px;
+    position: relative;
+    z-index: 1;
+}
+
+#detail_sd {
+    width: 97px;
+    height: 58px;
+    background: url(../res/man/sdbg1.png);
+    position: relative;
+    left: 90px;
+    top: 10px;
+}
+
+#detail_job {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    left: 115px;
+    top: 20px;
+    position: relative;
+}
+
+#detail_start {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    left: 115px;
+    top: 50px;
+    position: relative;
+}
+
+#detail_lv {
+    width: 200px;
+    float: left;
+    color: white;
+    font-size: 14px;
+    position: absolute;
+    left: 80px;
+    top: 361px;
+    z-index: 1;
+}
+
+#detail_hp {
+    width: 200px;
+    color: white;
+    font-size: 14px;
+    position: absolute;
+    left: 80px;
+    top: 395px;
+    z-index: 1;
+}
+
+#detail_atk {
+    width: 200px;
+    color: white;
+    font-size: 14px;
+    position: absolute;
+    left: 210px;
+    top: 395px;
+    z-index: 1;
+}
+
+#detail_lead {
+    width: 200px;
+    color: white;
+    font-size: 14px;
+    position: absolute;
+    left: 210px;
+    top: 361px;
+    z-index: 1;
+}
+
+.detail_skillTitle {
+    color: orange;
+    float: left;
+    margin-top: 15px;
+    font-size: 14px;
+    text-indent: 20px;
+}
+
+.detail_skillName {
+    float: left;
+    text-indent: 20px;
+    color: #26E50E;
+    font-size: 14px;
+    position: absolute;
+    left: 77px;
+    top: 15px;
+}
+
+.detail_skillDetail {
+    clear: both;
+    text-indent: 20px;
+    color: white;
+    font-size: 14px;
+    line-height: 22px;
+    white-space: nowrap;
+    /*text-overflow: ellipsis;
+    overflow: hidden;*/
+}
+
+.detail_skillLv {
+    right: 0px;
+    top: 17px;
+    position: absolute;
+    font-size: 14px;
+    color: yellow;
+}
+
+#detail_Come {
+    color: yellow;
+    left: 11px;
+    top: 264px;
+    font-size: 15px;
+    position: absolute;
+    width: 250px;
+    text-align: center;
+}
+
+#detail_protect {
+    width: 120px;
+    height: 40px;
+    color: white;
+    position: relative;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 30px;
+    top: 70px;
+    float: left;
+    display: none;
+}
+
+#detail_close {
+    width: 120px;
+    height: 40px;
+    color: white;
+    position: relative;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 30px;
+    left: 80px;
+    top: 70px;
+    float: left;
+}
+
+#detail_mask {
+    background: black;
+    opacity: 0.9;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 0;
+}
+
+.heroStar {
+    width: 0;
+    height: 20px;
+    background: url(../res/public/star.png);
+    background-size: 20px 20px;
+    z-index: 2;
+    position: absolute;
+    left: 220px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    top: 15px;
+}
+
+.heroList_Gold {
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    height: 20px;
+    position: absolute;
+    top: 40px;
+    left: 254px;
+    width: 1px;
+}
+
+/*升级*/
+@-webkit-keyframes no {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+#LvUp {
+    height: 480px;
+    width: 800px;
+    position: relative;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+#LvUpMain {
+    width: 708px;
+    height: 335px;
+    background: #5A2A04;
+    position: relative;
+    top: 65px;
+    left: 52px;
+    border-radius: 10px;
+    border: 2px solid #391400;
+}
+
+#LvUpHero {
+    width: 220px;
+    height: 264px;
+    background-image: url(../res/adv/heroBg.png);
+    border-radius: 10px;
+    position: absolute;
+    top: 53px;
+    left: 122px;
+    z-index: 1;
+}
+
+.LvUpEat {
+    width: 78px;
+    height: 78px;
+    background-image: url(../res/adv/small.png);
+    position: absolute;
+}
+
+#LvUpEat1 {
+    left: 42px;
+    top: 17px;
+}
+
+#LvUpEat2 {
+    left: 42px;
+    top: 130px;
+}
+
+#LvUpEat3 {
+    left: 40px;
+    top: 243px;
+}
+
+#LvUpEat4 {
+    left: 348px;
+    top: 17px;
+}
+
+#LvUpEat5 {
+    left: 348px;
+    top: 130px;
+}
+
+#LvUpEat6 {
+    left: 348px;
+    top: 243px;
+}
+
+#LvUpLight {
+    -webkit-animation: no 4s infinite ease-in-out;
+    background-image: url(../res/adv/choose.png);
+    width: 180px;
+    height: 60px;
+    top: 94px;
+    left: 15px;
+    position: relative;
+}
+
+.LvUpBtn {
+    position: absolute;
+    bottom: 27px;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px #000;
+    display: none;
+    right: 40px;
+}
+
+.bossBtn {
+    position: absolute;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px #000;
+    right: 29px;
+    bottom: 17px;
+    z-index: 1;
+    height: 50px;
+    width: 140px;
+}
+
+.shopBtn {
+    position: absolute;
+    top: 13px;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px #000;
+    right: 3px;
+}
+
+#LvUpSelect {
+    left: 420px;
+}
+
+#LvUpBtn {
+    left: 620px;
+}
+
+#LvUpHeroDetail {
+    width: 259px;
+    height: 300px;
+    background-image: url(../res/adv/lvupBg.png);
+    position: absolute;
+    left: 438px;
+    top: 17px;
+    font-size: 16px;
+    color: white;
+    text-shadow: 2px 2px 2px #000;
+}
+
+#LvUpPanel {
+    width: 259px;
+    height: 137px;
+    position: absolute;
+    left: 438px;
+    top: 180px;
+    font-size: 16px;
+    color: orange;
+    text-shadow: 2px 2px 2px #000;
+    text-indent: 17px;
+    line-height: 33px;
+}
+
+#LvUpHeroDetail_Name {
+    float: left;
+    left: 15px;
+    position: absolute;
+    top: 0px;
+    line-height: 33px;
+}
+
+#LvUpHeroDetail_Value {
+    float: right;
+    position: absolute;
+    left: 60px;
+    text-align: right;
+    top: 0px;
+    line-height: 33px;
+}
+
+#LvUpHeroDetail_ValuePlu {
+    -webkit-animation: no 4s infinite ease-in-out;
+    float: right;
+    position: absolute;
+    right: 94px;
+    text-align: left;
+    color: #03FA03;
+    top: 0px;
+    line-height: 33px;
+}
+
+#LvUpHeroDetail_Lv {
+    color: white;
+    text-align: center;
+    line-height: 30px;
+}
+
+#LvUpHeroDetail_Exp {
+    background: url(../res/adv/exp.png);
+    height: 11px;
+    position: absolute;
+    top: 109px;
+    left: 79px;
+    z-index: 1;
+    display: none;
+}
+
+#LvUpHeroDetail_ExpBg {
+    background: url(../res/adv/expBg.png);
+    width: 164px;
+    height: 17px;
+    position: absolute;
+    top: 106px;
+    left: 75px;
+    border-radius: 10px;
+}
+
+#LvUpHeroDetail_SkillName {
+    position: absolute;
+    top: 137px;
+    left: 17px;
+}
+
+#LvUpHeroDetail_ExpContent {
+    position: absolute;
+    top: 102px;
+    left: 17px;
+}
+
+#LvUpHeroDetail_ResultLv {
+    position: absolute;
+    top: 5px;
+    left: 70px;
+}
+
+#LvUpHeroDetail_SkillValue {
+    position: absolute;
+    top: 137px;
+    left: 147px;
+}
+
+.LvUpHeroDetail_Num {
+    color: white;
+}
+
+.jobSamll {
+    width: 30px;
+    height: 28px;
+    background: url(../res/public/job.png);
+    position: absolute;
+    left: 77px;
+    top: 8px;
+    z-index: 1;
+}
+
+.posSamll {
+    width: 36px;
+    height: 36px;
+    background: url(../res/city/pos.png);
+    position: absolute;
+    left: 77px;
+    top: 6px;
+    z-index: 1;
+}
+
+.heroListName {
+    position: relative;
+    left: 112px;
+    top: 8px;
+}
+
+/*碎片*/
+
+.pieceList {
+    height: 74px;
+    width: 328px;
+    font-size: 16px;
+    color: white;
+    float: left;
+    margin-bottom: 6px;
+    margin-top: 3px;
+    margin-left: 34px;
+    margin-right: -26px;
+    position: relative;
+}
+
+.pieceHead {
+    width: 78px;
+    height: 78px;
+    float: left;
+    position: absolute;
+}
+
+.heroLv {
+    position: absolute;
+    font-size: 20px;
+    bottom: 5px;
+    z-index: 1;
+    left: 6px;
+}
+
+.pieceBg {
+    width: 76px;
+    height: 76px;
+    background: url(../res/public/adv.png);
+    position: absolute;
+    z-index: 2;
+}
+
+.pieceHeadHero {
+    width: 78px;
+    height: 78px;
+    position: absolute;
+    border-radius: 20px;
+}
+
+.pieceDetail {
+    width: 330px;
+    height: 78px;
+    float: left;
+    background-image: url(../res/public/slideNew.png);
+    background-position-y: -312px;
+}
+
+.pieceNum_Font {
+    color: #26E50E;
+}
+
+.pieceWn_Font {
+    color: yellow;
+}
+
+.pieceComplete {
+    width: 73px;
+    height: 57px;
+    position: absolute;
+    left: 250px;
+    top: 10px;
+}
+
+#pieceFirst {
+    padding: 18px;
+    width: 200px;
+    font-size: 20px;
+    color: white;
+    top: 331px;
+    left: 495px;
+    position: absolute;
+    z-index: 1;
+}
+
+#pieceCheck {
+    width: 37px;
+    height: 31px;
+    background-image: url(../res/public/choose.png);
+    position: absolute;
+    right: 21px;
+    margin-top: -2px;
+}
+/*进化*/
+#adv {
+    height: 480px;
+    width: 800px;
+    position: relative;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+#advMain {
+    width: 708px;
+    height: 335px;
+    background: #5A2A04;
+    position: relative;
+    top: 65px;
+    left: 52px;
+    border-radius: 10px;
+    border: 2px solid #391400;
+}
+
+#advManNow {
+    width: 220px;
+    height: 264px;
+    background-image: url(../res/adv/heroBg.png);
+    position: absolute;
+    top: 56px;
+    left: 32px;
+}
+
+#advManNext {
+    width: 220px;
+    height: 264px;
+    background-image: url(../res/adv/heroBg.png);
+    position: absolute;
+    top: 56px;
+    left: 485px;
+}
+
+#advManNextDetail {
+    width: 200px;
+    height: 80px;
+    background: gray;
+    border: 2px solid blue;
+    border-radius: 10px;
+    position: absolute;
+    top: 250px;
+    left: 320px;
+    display: none;
+}
+
+#advManNowDetail {
+    width: 200px;
+    height: 80px;
+    background: gray;
+    border: 2px solid blue;
+    border-radius: 10px;
+    position: absolute;
+    top: 250px;
+    left: 50px;
+    display: none;
+}
+
+#manNowStar {
+    width: 30px;
+    background: url(../res/public/star.png);
+    position: absolute;
+    top: 155px;
+    left: 43px;
+    z-index: 2;
+}
+
+#advNowType {
+    width: 41px;
+    height: 42px;
+    background-image: url(../res/public/type.png);
+    position: absolute;
+    left: 199px;
+    top: 258px;
+    z-index: 2;
+    display: none;
+}
+
+#LvUp_star {
+    width: 30px;
+    background: url(../res/public/star.png);
+    position: absolute;
+    top: 95px;
+    left: 16px;
+    z-index: 2;
+}
+
+#heroequip_star {
+    width: 30px;
+    background: url(../res/public/star.png);
+    position: absolute;
+    top: 136px;
+    left: 16px;
+    z-index: 2;
+}
+
+#LvUp_type {
+    width: 41px;
+    height: 42px;
+    background-image: url(../res/public/type.png);
+    position: absolute;
+    left: 169px;
+    top: 205px;
+    display: none;
+    z-index: 2;
+    display: none;
+}
+
+#heroequip_shuai {
+    width: 41px;
+    height: 42px;
+    background-image: url(../res/public/type.png);
+    position: absolute;
+    left: 169px;
+    top: 240px;
+    display: none;
+    z-index: 2;
+    display: none;
+}
+
+#advNextType {
+    width: 41px;
+    height: 42px;
+    background-image: url(../res/public/type.png);
+    position: absolute;
+    left: 650px;
+    top: 258px;
+    display: none;
+    z-index: 2;
+}
+
+#manNextStar {
+    width: 30px;
+    background: url(../res/public/star.png);
+    left: 502px;
+    top: 155px;
+    position: absolute;
+    z-index: 2;
+}
+
+.advManNextDetail_left {
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    float: left;
+    margin-left: 14px;
+}
+
+.advManNextDetail_right {
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    float: left;
+    left: 80px;
+    position: absolute;
+    text-align: center;
+}
+
+.advManNextDetail_result {
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    float: left;
+    left: 154px;
+    position: absolute;
+    text-align: center;
+}
+
+.advManFont {
+    color: #26E50E;
+}
+
+#advManNeed {
+    width: 60px;
+    height: 320px;
+    right: 130px;
+    top: 10px;
+}
+
+#advManBtnOK {
+}
+
+.advManNeed {
+    margin-top: 3px;
+    width: 78px;
+    background-image: url(../res/adv/small.png);
+    height: 78px;
+    border-radius: 10px;
+    position: absolute;
+}
+
+#advItem0 {
+    left: 256px;
+    top: 168px;
+}
+
+#advItem1 {
+    left: 408px;
+    top: 168px;
+}
+
+#advItem2 {
+    left: 256px;
+    top: 246px;
+}
+
+#advItem3 {
+    left: 332px;
+    top: 246px;
+}
+
+#advItem4 {
+    left: 408px;
+    top: 246px;
+}
+
+#advManGold {
+    color: white;
+    position: absolute;
+    left: 316px;
+    top: 131px;
+}
+
+#advManSelect {
+    width: 180px;
+    height: 60px;
+    -webkit-animation: no 4s infinite ease-in-out;
+    background-image: url(../res/adv/choose.png);
+    position: absolute;
+    top: 96px;
+    left: 20px;
+}
+
+.advManNeedNum {
+    position: absolute;
+    right: 10px;
+    top: 52px;
+    font-weight: bold;
+}
+
+.advManNeedNumBg {
+    background-image: url(../res/adv/something.png);
+    width: 64px;
+    height: 18px;
+    position: absolute;
+    right: 6px;
+    top: 6px;
+    background-position-y: 0px;
+    display: none;
+}
+
+.heroLock {
+    display: inline-block;
+    background: url(../res/public/lock.png);
+    background-size: 15px 15px;
+    height: 15px;
+    left: 188px;
+    top: 17px;
+    position: absolute;
+}
+
+.shangdi {
+    width: 98px;
+    height: 55px;
+    position: absolute;
+    left: 17px;
+    top: 114px;
+}
+
+.man_job {
+    height: 28px;
+    width: 30px;
+    position: absolute;
+    top: -26px;
+    left: -14px;
+    background-image: url(../res/public/job.png);
+}
+
+.man_job2 {
+    height: 28px;
+    width: 30px;
+    float: left;
+    /*margin-top: -4px;*/
+    background-image: url(../res/public/job.png);
+    display: none;
+    padding: 0px;
+}
+
+.LvUp_shidi {
+    background: url(../res/man/sdbg1.png);
+    height: 55px;
+    width: 98px;
+    position: absolute;
+    bottom: 8px;
+    left: 63px;
+    display: none;
+}
+
+.LvUp_job {
+    height: 28px;
+    width: 30px;
+    background: url(../res/public/job.png);
+    position: absolute;
+    top: -41px;
+    left: 38px;
+    display: none;
+}
+
+.LvUp_shangdi {
+    width: 98px;
+    height: 55px;
+    position: absolute;
+    left: 63px;
+    top: 201px;
+    display: none;
+}
+
+.LvUp_Hero {
+    width: 256px;
+    height: 256px;
+    position: absolute;
+    top: 20px;
+    left: -15px;
+    z-index: 1;
+}
+
+.adv_shidi {
+    background: url(../res/man/sdbg1.png);
+    height: 55px;
+    width: 98px;
+    position: absolute;
+    bottom: 10px;
+    left: 60px;
+    display: none;
+}
+
+.adv_job {
+    height: 28px;
+    width: 30px;
+    background: url(../res/public/job.png);
+    position: absolute;
+    top: -42px;
+    left: 37px;
+    display: none;
+}
+
+.adv_shangdi {
+    width: 98px;
+    height: 55px;
+    position: absolute;
+    left: 60px;
+    top: 201px;
+    display: none;
+}
+
+.adv_Hero {
+    width: 256px;
+    height: 256px;
+    position: absolute;
+    top: 16px;
+    left: -18px;
+    z-index: 1;
+}
+
+.advNext_shidi {
+    background: url(../res/man/sdbg1.png);
+    height: 55px;
+    width: 98px;
+    position: absolute;
+    bottom: 10px;
+    left: 60px;
+    display: none;
+}
+
+.advNext_job {
+    height: 28px;
+    width: 30px;
+    background: url(../res/public/job.png);
+    position: absolute;
+    top: -42px;
+    left: 37px;
+    display: none;
+}
+
+.advNext_shangdi {
+    width: 98px;
+    height: 55px;
+    position: absolute;
+    left: 60px;
+    top: 200px;
+    display: none;
+}
+
+.advNext_Hero {
+    width: 256px;
+    height: 256px;
+    position: absolute;
+    top: 14px;
+    left: -20px;
+    z-index: 1;
+}
+
+.LvUpEat_font {
+    width: 32px;
+    height: 31px;
+    background-image: url(../res/adv/add.png);
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    -webkit-animation: no 4s infinite ease-in-out;
+    display: none;
+}
+
+.LvUpEat_font2 {
+    width: 32px;
+    height: 31px;
+    background-image: url(../res/adv/add.png);
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    -webkit-animation: no 4s infinite ease-in-out;
+}
+
+.light {
+    -webkit-animation: no 4s infinite ease-in-out;
+}
+
+.LvUpHeroCan {
+    height: 20px;
+    z-index: 2;
+    position: absolute;
+    left: 180px;
+    top: 8px;
+    font-size: 17px;
+    color: red;
+}
+
+.advHeroChange {
+    -webkit-animation: no 4s infinite ease-in-out;
+    width: 64px;
+    height: 18px;
+    background-image: url(../res/adv/something.png);
+    position: absolute;
+    left: 7px;
+    top: 28px;
+}
+
+/*强化*/
+#refine {
+    height: 480px;
+    width: 800px;
+    position: relative;
+    z-index: 1;
+    margin: 0 auto;
+}
+
+#equip {
+    width: 708px;
+    height: 335px;
+    background: #5A2A04;
+    position: relative;
+    top: 65px;
+    left: 52px;
+    border-radius: 10px;
+    border: 2px solid #391400;
+}
+
+#equip_Hero {
+    width: 120px;
+    height: 340px;
+    margin-left: 5px;
+    position: absolute;
+    left: 544px;
+}
+
+
+#equip_Main {
+    width: 220px;
+    height: 340px;
+    position: absolute;
+    top: 0;
+    left: 324px;
+    z-index: 1;
+}
+
+.equip_Detail {
+    width: 212px;
+    height: 74px;
+    background-image: url(../res/refine/equip.png);
+    background-position-y: 74px;
+    margin-top: 7px;
+    font-size: 18px;
+    font-weight: bold;
+    text-indent: 20px;
+    display: none;
+    line-height: 10px;
+    position: relative;
+}
+
+.equip_DetailSelect {
+    background-position-y: 0;
+}
+
+#equip_LvUp {
+    width: 350px;
+    height: 340px;
+    position: absolute;
+    background: url(../res/refine/bg.png) center no-repeat;
+    top: 0;
+    left: 0;
+    font-size: 14px;
+    text-shadow: -1px -1px 0 #000,1px -1px #000,1px 1px #000,-1px 1px #000;
+}
+
+.equip_Head {
+    background: url(../res/head/headBg.png);
+    width: 78px;
+    height: 78px;
+    float: left;
+    margin-top: -2px;
+    left: -2px;
+    position: absolute;
+}
+
+.equip_hero_Detail {
+    width: 140px;
+    height: 80px;
+    float: left;
+    line-height: 25px;
+}
+
+#equip_LvUp_Head {
+    width: 76px;
+    height: 76px;
+    position: relative;
+    left: 137px;
+    top: 101px;
+}
+
+#equip_adv_Head {
+    width: 76px;
+    height: 76px;
+    position: relative;
+    left: 137px;
+    top: 61px;
+}
+
+#equip_LvUp_Need1 {
+    left: -1px;
+    top: 32px;
+}
+
+#equip_LvUp_Need2 {
+    left: 78px;
+    top: 32px;
+}
+
+#equip_LvUp_Need3 {
+    left: 156px;
+    top: 32px;
+}
+
+#equip_adv_Detail {
+    position: relative;
+    top: 66px;
+    left: 100px;
+    line-height: 30px;
+    color: white;
+}
+
+#equip_adv_Result {
+    position: absolute;
+    top: 141px;
+    left: 220px;
+    color: #26E50E;
+    line-height: 30px;
+}
+
+#equip_LvUp_Detail {
+    width: 100px;
+    position: relative;
+    top: 132px;
+    left: 100px;
+    line-height: 30px;
+    color: white;
+}
+
+#equip_LvUp_Result {
+    position: absolute;
+    top: 209px;
+    left: 220px;
+    color: #26E50E;
+    line-height: 30px;
+}
+
+#equip_LvUp_Use {
+    position: relative;
+    top: 139px;
+    text-align: center;
+    color: #F2E234;
+    left: 74px;
+    width: 210px;
+}
+
+.equip_icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    float: left;
+    position: relative;
+    top: 65px;
+    left: 120px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.equip_bg {
+    background: url(../res/head/3.png);
+    width: 78px;
+    height: 78px;
+    position: absolute;
+}
+
+.equip_img {
+    width: 78px;
+    height: 78px;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+.equip_LvUp_bg {
+    background: url(../res/head/3.png);
+    width: 76px;
+    height: 76px;
+    position: absolute;
+}
+
+.equip_LvUp_img {
+    width: 76px;
+    height: 76px;
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero_Detail_Atk {
+    left: 190px;
+    position: absolute;
+    top: 40px;
+    font-size: 14px;
+}
+
+.hero_Detail_Hp {
+    left: 100px;
+    position: absolute;
+    top: 40px;
+    font-size: 14px;
+}
+
+.hero_Detail_Lead {
+    left: 267px;
+    position: absolute;
+    top: 40px;
+    font-size: 14px;
+}
+
+.equip_LvUp_NeedItem {
+    width: 76px;
+    height: 76px;
+    position: absolute;
+}
+
+#equip_LvUp_Need {
+    width: 220px;
+    height: 70px;
+    position: absolute;
+    left: 60px;
+    top: 205px;
+}
+
+#equip_BtnLvUp {
+    width: 120px;
+    height: 40px;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    line-height: 40px;
+    position: absolute;
+    left: 120px;
+    top: 290px;
+}
+
+.equip_LvUp_Num {
+    font-size: 14px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 6px;
+    right: 6px;
+    color: red;
+}
+
+.equip_LvUp_NeedImg {
+    width: 76px;
+    height: 76px;
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#equip_gem_list {
+    width: 354px;
+    height: 329px;
+    margin-left: 50px;
+}
+
+.equip_gem_item {
+    width: 78px;
+    height: 78px;
+    background-image: url(../res/head/headBg.png);
+    float: left;
+    position: relative;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+
+#equip_gem_list_something {
+    font-size: 18px;
+    color: white;
+    position: relative;
+    left: 1px;
+    top: 355px;
+    text-shadow: -1px -1px 0 #000,1px -1px #000,1px 1px #000,-1px 1px #000;
+    width: 500px;
+}
+
+#heroequip_something {
+    font-size: 18px;
+    color: white;
+    position: relative;
+    left: 49px;
+    top: 81px;
+    text-shadow: -1px -1px 0 #000,1px -1px #000,1px 1px #000,-1px 1px #000;
+    width: 500px;
+    white-space: nowrap;
+}
+
+#equip_gem_list_left {
+    position: absolute;
+    left: 287px;
+}
+
+#equip_gem_list_right {
+    position: absolute;
+    top: 0;
+}
+
+#equip_gem_list_main {
+    width: 350px;
+    height: 340px;
+    /*width: 276px;
+    height: 307px;*/
+    background: url(../res/refine/make.png) center no-repeat;
+    position: relative;
+}
+
+.equip_gem_small {
+    width: 76px;
+    height: 76px;
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#equip_gem_small0 {
+    left: 49px;
+    top: 40px;
+}
+
+#equip_gem_small1 {
+    left: 215px;
+    top: 44px;
+}
+
+#equip_gem_small2 {
+    left: 49px;
+    top: 212px;
+}
+
+#equip_gem_small3 {
+    left: 214px;
+    top: 212px;
+}
+
+#equip_gem_big {
+    width: 76px;
+    height: 76px;
+    position: absolute;
+    top: 130px;
+    left: 132px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#equip_gem_list_use {
+    width: 280px;
+    height: 80px;
+    background: blue;
+    position: absolute;
+    left: 60px;
+    top: 220px;
+    color: red;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#equip_gem_list_useName {
+    float: left;
+    margin-left: 50px;
+    text-align: right;
+}
+
+#equip_gem_list_btn {
+    width: 80px;
+    height: 30px;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 30px;
+    left: 100px;
+    top: 45px;
+}
+
+
+.equip_gem_item_num {
+    color: white;
+    font-size: 13px;
+    position: absolute;
+    bottom: 8px;
+    right: 10px;
+    text-shadow: -1px -1px 0 #000,1px -1px #000,1px 1px #000,-1px 1px #000;
+}
+
+#bagDialog {
+    width: 708px;
+    height: 335px;
+    background: #5A2A04;
+    position: relative;
+    top: 65px;
+    left: 52px;
+    border-radius: 10px;
+    border: 2px solid #391400;
+}
+
+.bagHeadBg {
+    width: 78px;
+    height: 78px;
+    position: relative;
+    float: left;
+    z-index: 1;
+    top: 1px;
+}
+
+.bagHeadBg2 {
+    width: 78px;
+    height: 78px;
+    position: relative;
+    float: left;
+    z-index: 1;
+    background-image: url(../res/head/headBg.png);
+}
+
+.bagHeadColor {
+    width: 78px;
+    height: 78px;
+    position: absolute;
+}
+
+.bagHead {
+    width: 78px;
+    height: 78px;
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.goodDetail {
+    width: 330px;
+    height: 78px;
+    background: url(../res/public/bagBg.png);
+    background-position-y: -78px;
+    position: relative;
+    margin-top: 1px;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+}
+
+.bagItem {
+    margin-bottom: 2px;
+    margin-left: 6px;
+    float: left;
+    position: relative;
+}
+
+.goodDetail_value {
+    position: absolute;
+    top: 43px;
+    left: 93px;
+    z-index: 1;
+    font-weight: normal;
+    font-size: 15px;
+    width: 158px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.goodDetail_name {
+    position: absolute;
+    top: 13px;
+    left: 95px;
+    font-size: 16px;
+}
+
+.bagPage {
+    float: left;
+    margin-top: 4px;
+    margin-left: 26px;
+}
+
+.shopPage {
+    float: left;
+    margin-top: 5px;
+    margin-left: 30px;
+}
+
+.equip_hole {
+    height: 78px;
+    width: 78px;
+    position: absolute;
+}
+
+.equip_hole_bg {
+    height: 78px;
+    width: 78px;
+    position: absolute;
+}
+
+.equip_hole_img {
+    height: 78px;
+    width: 78px;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+#equip_hole_Big {
+    height: 78px;
+    width: 78px;
+    position: absolute;
+    left: 133px;
+    top: 129px;
+}
+
+#equip_hole0 {
+    left: 51px;
+    top: 45px;
+}
+
+#equip_hole1 {
+    left: 216px;
+    top: 45px;
+}
+
+#equip_hole2 {
+    left: 51px;
+    top: 212px;
+}
+
+#equip_hole3 {
+    left: 215px;
+    top: 213px;
+}
+
+
+.goodDetail_use {
+    width: 75px;
+    height: 59px;
+    background-image: url(../res/detail/down.png);
+    position: absolute;
+    z-index: 1;
+    top: 12px;
+    right: 40px;
+    display: none;
+}
+
+#heroEquip {
+    width: 800px;
+    height: 480px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+
+#equipDialog_Hero {
+    width: 140px;
+    height: 340px;
+    margin-right: 20px;
+    position: absolute;
+    right: 0;
+}
+
+.equip_heroDetail {
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 10px;
+    margin-left: 4px;
+    background-image: url(../res/refine/hero.png);
+    background-position-y: 40px;
+}
+
+.equip_heroDetailSelect {
+    background-position-y: 0px;
+}
+
+#equipDialog {
+    width: 708px;
+    height: 335px;
+    background: #5A2A04;
+    position: relative;
+    top: 65px;
+    left: 52px;
+    border-radius: 10px;
+    border: 2px solid #391400;
+}
+
+#equipDialog_Detail {
+    height: 266px;
+    width: 170px;
+    position: absolute;
+    background-image: url(../res/refine/heroDetail.png);
+    left: 32px;
+}
+
+#equipDialog_Main {
+    width: 309px;
+    height: 324px;
+    background-image: url(../res/refine/equipBg.png);
+    position: absolute;
+    left: 220px;
+    top: 5px;
+}
+
+.equipDialog_equip {
+    width: 78px;
+    height: 78px;
+    position: absolute;
+}
+
+#equipDialog_equip0 {
+    left: 232px;
+    top: 1px;
+}
+
+#equipDialog_equip1 {
+    left: 232px;
+    top: 82px;
+}
+
+#equipDialog_equip2 {
+    left: 232px;
+    top: 165px;
+}
+
+#equipDialog_equip3 {
+    left: 232px;
+    top: 247px;
+}
+
+#equipDialog_man {
+    width: 125px;
+    height: 165px;
+    position: absolute;
+    z-index: 1;
+    left: 46px;
+    top: 134px;
+}
+
+#dDialog_man {
+    width: 125px;
+    height: 165px;
+    position: absolute;
+    z-index: 1;
+    left: 120px;
+    top: 194px;
+}
+
+.equipDialog_font {
+    font-size: 15px;
+    color: white;
+    text-indent: 15px;
+    line-height: 17px;
+    text-shadow: -1px -1px 0 #000,1px -1px #000,1px 1px #000,-1px 1px #000;
+}
+
+.equipDialog_equipImg, .equipDialog_equipBg {
+    height: 76px;
+    width: 76px;
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.map {
+    width: 854px;
+    height: 480px;
+    position: relative;
+    float: left;
+}
+
+.map_bg {
+    width: 854px;
+    height: 336px;
+    background: url(../res/battle/mapbg/1.png);
+    position: absolute;
+}
+
+.map_qg {
+    width: 854px;
+    height: 282px;
+    background: url(../res/battle/mapqg/1.png);
+    position: absolute;
+    bottom: 0;
+}
+
+#battle {
+    overflow: hidden;
+    position: absolute;
+    z-index: 1;
+}
+
+.mapicon {
+    position: absolute;
+    width: 136px;
+    height: 164px;
+    background-repeat: no-repeat;
+    background-position: center;
+    left: 180px;
+    top: 320px;
+}
+
+#map {
+    width: 800px;
+    height: 480px;
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+    z-index: 20;
+}
+
+#mapDialog {
+    width: 708px;
+    height: 335px;
+    background: #5A2A04;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 65px;
+    left: 52px;
+    border-radius: 10px;
+    border: 2px solid #391400;
+}
+
+
+#map_btnFight {
+    right: 42px;
+    bottom: 17px;
+    width: 91px;
+}
+
+#map_btnClear {
+    right: 130px;
+    bottom: 17px;
+}
+
+#map_btn_usual, #map_btn_elite {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    border-radius: 80px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    line-height: 80px;
+}
+
+#map_btn_usual {
+    left: 20px;
+    top: 150px;
+}
+
+#map_btn_elite {
+    left: 20px;
+    top: 240px;
+}
+
+.map_icon {
+    width: 100px;
+    border-radius: 100px;
+    height: 100px;
+    background: orange;
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    position: relative;
+    left: 30px;
+}
+
+.map_icon_name {
+    font-size: 20px;
+    text-align: center;
+    line-height: 100px;
+    font-weight: bold;
+    color: white;
+}
+
+#battleClose, #yxzClose {
+    width: 60px;
+    height: 60px;
+    background-image: url(../res/battle/backcity.png);
+    z-index: 2;
+    position: fixed;
+    right: 4px;
+    top: 4px;
+}
+
+@-webkit-keyframes bouncein {
+    0% {
+        -webkit-transform: scale(0.3);
+    }
+
+    50% {
+        -webkit-transform: scale(1.05);
+    }
+
+    70% {
+        -webkit-transform: scale(0.9);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+    }
+}
+
+.bouncein {
+    -webkit-animation: 1s ease-out backwards;
+    -moz-animation: 1s ease-out backwards;
+    -ms-animation: 1s ease-out backwards;
+    animation: 1s ease-out backwards;
+}
+
+/*任务界面*/
+#task {
+    height: 480px;
+    width: 800px;
+    position: relative;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+#taskMain {
+    width: 708px;
+    height: 335px;
+    background: #5A2A04;
+    position: relative;
+    top: 65px;
+    left: 52px;
+    border-radius: 10px;
+    border: 2px solid #391400;
+}
+
+.taskItem {
+    width: 150px;
+    height: 40px;
+    background-image: url(../res/refine/hero.png);
+    background-position-y: -40px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    line-height: 40px;
+    margin-bottom: 20px;
+    margin-left: 12px;
+    margin-top: 9px;
+    position: relative;
+}
+
+.taskItemSelect {
+    background-position-y: 0;
+}
+
+#task_middle {
+    width: 6px;
+    height: 336px;
+    background-image: url(../res/refine/hr.png);
+    position: absolute;
+    top: -2px;
+    left: 536px;
+}
+
+#task_right {
+    width: 476px;
+    height: 315px;
+    background-image: url(../res/task/bg.png);
+    position: absolute;
+    top: 11px;
+    left: 43px;
+    font-size: 16px;
+    color: white;
+    text-shadow: -1px -1px 0 #000,1px -1px #000,1px 1px #000,-1px 1px #000;
+}
+
+.task_detail_name {
+    font-size: 30px;
+    color: #F2F02C;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px #000;
+    letter-spacing: 0px;
+}
+
+.task_detail_item {
+    float: left;
+    margin-right: 50px;
+    letter-spacing: 0;
+}
+
+#task_left {
+    width: 170px;
+    height: 330px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    overflow: hidden;
+}
+
+#userData {
+    width: 372px;
+    height: 72px;
+    background-image: url(../res/city/info.png);
+    position: fixed;
+    left: 4px;
+    top: 4px;
+    z-index: 1;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+
+#u_nick {
+    width: 103px;
+    text-align: center;
+    position: absolute;
+    color: white;
+    left: 37px;
+    top: 11px;
+    text-shadow: -1px -1px 0 #000,1px -1px #000,1px 1px #000,-1px 1px #000;
+}
+
+#u_exp {
+    width: 96px;
+    height: 16px;
+    background-image: url(../res/city/exp.png);
+    position: absolute;
+    left: 76px;
+    top: 38px;
+    text-shadow: -1px -1px 0 #000,1px -1px #000,1px 1px #000,-1px 1px #000;
+}
+
+#u_coin {
+    position: absolute;
+    left: 204px;
+    top: 6px;
+    width: 70px;
+    text-align: center;
+}
+
+#u_gold {
+    width: 70px;
+    position: absolute;
+    left: 297px;
+    top: 6px;
+    text-align: center;
+}
+
+.care {
+    width: 36px;
+    height: 39px;
+    background-image: url(../res/public/care.png);
+    position: absolute;
+}
+
+#u_strength {
+    max-width: 122px;
+    width: 122px;
+    height: 16px;
+    background-image: url(../res/city/strength.png);
+    position: absolute;
+    left: 217px;
+    top: 38px;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    text-shadow: -1px -1px 0 #000,1px -1px #000,1px 1px #000,-1px 1px #000;
+}
+
+#u_viplv {
+    width: 34px;
+    height: 15px;
+    background-image: url(../res/city/vip.png);
+    position: absolute;
+    left: 139px;
+    top: 11px;
+}
+
+#u_position {
+    background-image: url(../res/city/pos.png);
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    left: 7px;
+    top: -1px;
+}
+
+#u_add {
+    width: 26px;
+    height: 26px;
+    background-image: url(../res/city/add.png);
+    position: absolute;
+    left: 346px;
+    top: 31px;
+}
+
+/*消息*/
+#messageDialog {
+    width: 708px;
+    height: 335px;
+    background: #5A2A04;
+    position: relative;
+    top: 65px;
+    left: 52px;
+    border-radius: 10px;
+    border: 2px solid #391400;
+}
+
+.m_item {
+    width: 328px;
+    height: 74px;
+    background-image: url(../res/public/slideBg.png);
+    margin-bottom: 6px;
+    margin-top: 4px;
+    margin-left: 37px;
+    margin-right: -26px;
+    position: relative;
+    float: left;
+}
+
+.m_item div {
+    position: absolute;
+}
+
+.m_box {
+    width: 78px;
+    height: 78px;
+    margin-top: -2px;
+}
+
+.m_detail {
+    left: 83px;
+    top: 39px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-shadow: -1px -1px 0 #000,1px -1px #000,1px 1px #000,-1px 1px #000;
+    width: 238px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.m_type {
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    left: 80px;
+    top: 7px;
+    color: #F2E234;
+}
+
+.m_time {
+    color: white;
+    font-size: 15px;
+    left: 230px;
+    top: 3px;
+}
+
+.m_btn {
+    width: 73px;
+    height: 58px;
+    background-position: center;
+    background-repeat: no-repeat;
+    top: 13px;
+    right: 9px;
+}
+
+#message {
+    z-index: 1;
+    width: 800px;
+    height: 480px;
+    margin: 0 auto;
+    position: relative;
+}
+/*奖励*/
+#rewardDialog {
+    width: 600px;
+    height: 350px;
+    background-size: 600px 350px;
+    background-image: url(../res/reward/r_bg.png);
+    position: absolute;
+    z-index: 1;
+}
+
+#r_contain {
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    left: 100px;
+    top: 60px;
+}
+
+.r_item {
+    width: 76px;
+    height: 76px;
+    float: left;
+    margin-left: 40px;
+    margin-top: 20px;
+    position: relative;
+    background-size: 76px 76px;
+    background-image: url(../res/reward/100.png);
+}
+
+.r_num {
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: -1px -1px 0 #000,1px -1px #000,1px 1px #000,-1px 1px #000;
+    color: white;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+}
+
+#r_btn {
+    height: 50px;
+    width: 100px;
+    background-size: 100px 50px;
+    background-image: url(../res/reward/r_btn.png);
+    position: absolute;
+    left: 230px;
+    top: 260px;
+}
+/*升级*/
+#lv_Main {
+    width: 600px;
+    height: 350px;
+    background: url(../res/reward/r_bg.png);
+    background-size: 600px 350px;
+    position: absolute;
+    z-index: 5;
+}
+
+#lv_contain {
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    left: 100px;
+    top: 60px;
+    font-size: 30px;
+    color: white;
+    text-shadow: -1px -1px 0 #000,1px -1px #000,1px 1px #000,-1px 1px #000;
+}
+
+#lv_reward_key {
+    float: left;
+    position: relative;
+    left: 100px;
+}
+
+#lv_reward_value {
+    margin-left: 30px;
+    float: left;
+    text-align: left;
+    position: relative;
+    left: 100px;
+}
+
+#lv_btn {
+    height: 50px;
+    width: 100px;
+    background-size: 100px 50px;
+    background-image: url(../res/reward/r_btn.png);
+    position: absolute;
+    left: 230px;
+    top: 260px;
+}
+/*主城建筑*/
+#b_bag {
+    width: 149px;
+    height: 169px;
+    background: url(../res/city/building/bag.png) no-repeat;
+    z-index: 3;
+    position: absolute;
+    left: 60px;
+    top: 127px;
+}
+
+#b_arena {
+    width: 175px;
+    height: 167px;
+    background: url(../res/city/building/arena.png) no-repeat;
+    z-index: 2;
+    position: absolute;
+    left: 180px;
+    top: 115px;
+}
+
+#b_battle {
+    width: 191px;
+    height: 181px;
+    background: url(../res/city/building/battle.png) no-repeat;
+    z-index: 1;
+    position: absolute;
+    left: 328px;
+    top: 93px;
+}
+
+#b_equip {
+    width: 155px;
+    height: 175px;
+    background: url(../res/city/building/equip.png) no-repeat;
+    z-index: 2;
+    position: absolute;
+    left: 495px;
+    top: 113px;
+}
+
+#b_faction {
+    width: 160px;
+    height: 166px;
+    background: url(../res/city/building/faction.png) no-repeat;
+    z-index: 3;
+    position: absolute;
+    left: 633px;
+    top: 138px;
+}
+
+#building {
+    width: 600px;
+    height: 130px;
+    /*left:62px;*/
+    position: absolute;
+}
+
+#b_click1 {
+    width: 131px;
+    height: 166px;
+}
+
+/*竞技场*/
+.arena_font {
+    color: #26E50E;
+}
+
+#a_rank_rank {
+    position: absolute;
+    top: 36px;
+    left: 211px;
+}
+
+#a_rank_num {
+    position: absolute;
+    left: 91px;
+    top: 137px;
+}
+
+#a_user_fame {
+    position: absolute;
+    left: 11px;
+    top: 83px;
+}
+
+#a_user_hono {
+    position: absolute;
+    left: 11px;
+    top: 108px;
+}
+
+#a_rank_fame {
+    position: absolute;
+    left: 211px;
+    top: 84px;
+}
+
+#a_rank_coin {
+    position: absolute;
+    left: 211px;
+    top: 60px;
+}
+
+.a_enemy_bg2 {
+    width: 100px;
+    height: 57px;
+    background-image: url(../res/public/castBg.png);
+    position: absolute;
+    left: 135px;
+    top: 8px;
+}
+
+#arena {
+    width: 800px;
+    height: 480px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+
+#arenaDialog {
+    height: 335px;
+    width: 733px;
+    background: #5A2A04;
+    position: relative;
+    top: 65px;
+    left: 32px;
+    border-radius: 10px;
+    border: 2px solid #391400;
+}
+
+#a_user {
+    width: 383px;
+    height: 70px;
+    background-image: url(../res/arena/info.png);
+    left: 6px;
+    top: 10px;
+    position: relative;
+    color: white;
+}
+
+#a_user_time {
+    color: red;
+    position: absolute;
+    left: 201px;
+    top: 12px;
+    width: 175px;
+    text-align: center;
+}
+
+#a_user_timeContent {
+    color: white;
+    display: inline-block;
+}
+
+#a_rank {
+    width: 384px;
+    height: 172px;
+    background-image: url(../res/arena/detail.png);
+    font-size: 16px;
+    color: white;
+    position: relative;
+    top: 13px;
+    left: 6px;
+    text-shadow: -1px -1px 0 #000,1px -1px #000,1px 1px #000,-1px 1px #000;
+}
+
+#a_user_record {
+    position: absolute;
+    left: 11px;
+    top: 36px;
+}
+
+#a_user_rate {
+    position: absolute;
+    left: 11px;
+    top: 60px;
+}
+
+#a_enemy {
+    width: 332px;
+    height: 340px;
+    position: absolute;
+    left: 396px;
+    top: 0px;
+}
+
+.a_enemy_item {
+    height: 74px;
+    width: 328px;
+    background-image: url(../res/public/slideBg.png);
+    position: relative;
+    margin-top: 6px;
+}
+
+.a_enemy_rank {
+    color: white;
+    text-shadow: -1px -1px 0 #000,1px -1px #000,1px 1px #000,-1px 1px #000;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    left: 4px;
+    top: 40px;
+    width: 58px;
+    text-align: center;
+}
+
+.a_enemy_head, .a_enemy_bg, .a_enemy_img {
+    width: 76px;
+    height: 76px;
+    left: 60px;
+    background: url(../res/head/headBg.png);
+    position: absolute;
+    top: -2px;
+}
+
+.a_enemy_bg1 {
+    width: 44px;
+    height: 25px;
+    background-image: url(../res/arena/rank.png);
+    position: absolute;
+    left: 13px;
+    top: 13px;
+}
+
+.a_enemy_bg {
+    left: 0;
+    top: 0;
+}
+
+.a_enemy_img {
+    background: url(res/head/1000.png);
+    left: 1px;
+    top: 1px;
+    background-size: 74px 74px;
+}
+
+.a_enemy_data {
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    position: absolute;
+    left: 153px;
+    top: 4px;
+    line-height: 32px;
+}
+
+.a_enemy_btn {
+    width: 100px;
+    height: 40px;
+    background: white;
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    border-radius: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 40px;
+}
+
+#a_user_head, #a_user_img, #a_user_bg {
+    width: 76px;
+    height: 76px;
+    background-image: url(../res/head/headBg.png);
+    position: absolute;
+}
+
+#a_user_head {
+    top: -3px;
+}
+
+#a_user_img {
+    background-image: url(res/head/1000.png);
+}
+
+#a_user_bg {
+    background-image: url(res/head/2.png);
+}
+
+#a_user_name {
+    position: absolute;
+    left: 80px;
+    top: 3px;
+    color: #26E50E;
+}
+
+#a_user_lv {
+    position: absolute;
+    left: 80px;
+    top: 23px;
+}
+
+#a_user_pos {
+    position: absolute;
+    left: 80px;
+    top: 43px;
+}
+
+#a_user_rank {
+    width: 60px;
+    height: 60px;
+    background-image: url(../res/arena/3.png);
+    float: left;
+}
+
+#a_icon {
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+
+#a_icon div {
+    margin-left: 20px;
+}
+
+#a_user_reward {
+    width: 60px;
+    height: 60px;
+    background-image: url(../res/arena/1.png);
+    float: left;
+}
+
+#a_rule {
+    width: 60px;
+    height: 60px;
+    background-image: url(../res/arena/4.png);
+    float: left;
+}
+
+#a_shop {
+    width: 60px;
+    height: 60px;
+    background-image: url(../res/arena/2.png);
+    float: left;
+}
+/*战神榜*/
+#rankDialog {
+    width: 580px;
+    background-image: url(../res/arena/bg.png);
+    height: 460px;
+    position: absolute;
+    z-index: 5;
+}
+
+#rankClose {
+    height: 53px;
+    background: url(../res/dialog/close.png);
+    width: 53px;
+    position: absolute;
+    top: 10px;
+    right: 8px;
+}
+
+#rankTitle {
+    width: 111px;
+    height: 42px;
+    background-image: url(../res/arena/title2.png);
+    position: absolute;
+    left: 235px;
+    top: 11px;
+}
+
+.rank_item {
+    width: 382px;
+    height: 74px;
+    background-image: url(../res/battle/fkbg.png);
+    margin-top: 6px;
+    margin-left: 39px;
+    font-size: 15px;
+    color: white;
+    position: relative;
+}
+
+.rank_rank {
+    position: absolute;
+    line-height: 76px;
+    text-indent: 35px;
+    color: orange;
+}
+
+.rank_data {
+    position: absolute;
+    left: 80px;
+    top: 12px;
+}
+
+.rank_rate {
+    position: absolute;
+    right: 13px;
+    top: 12px;
+}
+/*购买按钮*/
+.bag_bug {
+    position: absolute;
+    right: 20px;
+    width: 59px;
+    height: 30px;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 30px;
+    top: 39px;
+}
+
+.bag_honor {
+    position: absolute;
+    right: 15px;
+    top: 8px;
+}
+
+.heroNameBg {
+    width: 150px;
+    height: 30px;
+    background: url(../res/public/nameBg.png);
+    position: absolute;
+    left: 74px;
+    top: 8px;
+}
+
+.heroAtk {
+    width: 24px;
+    height: 24px;
+    background: url(../res/public/atk.png);
+    position: absolute;
+    z-index: 1;
+    top: 43px;
+    left: 164px;
+}
+
+.heroHp {
+    width: 24px;
+    height: 24px;
+    background: url(../res/public/hp.png);
+    position: absolute;
+    z-index: 1;
+    left: 75px;
+    top: 43px;
+}
+
+.heroLead {
+    width: 24px;
+    height: 24px;
+    background: url(../res/public/lead.png);
+    position: absolute;
+    z-index: 1;
+    top: 43px;
+    left: 241px;
+}
+
+.hero_icon {
+    width: 64px;
+    height: 64px;
+    background-image: url(../res/public/icon/all.png);
+    background-position-x: -64px;
+    position: absolute;
+    left: 20px;
+    top: 93px;
+    z-index: 2;
+}
+
+#hero_sell {
+    top: 167px;
+    background-image: url(../res/public/icon/sell.png);
+}
+
+#hero_adv {
+    top: 241px;
+    background-image: url(../res/public/icon/hero_adv.png);
+}
+
+.hero_icon_select {
+    background-position-x: 0;
+}
+
+.heroLvNum {
+    width: 19px;
+    height: 15px;
+    background: url(../res/public/lv.png);
+    float: left;
+}
+
+.heroLv_num {
+    width: 13px;
+    height: 15px;
+    background: url(../res/public/lv_num.png);
+    float: left;
+    margin-left: -3px;
+}
+
+.cityLvNum {
+    width: 15px;
+    height: 14px;
+    background: url(../res/city/lv.png);
+    float: left;
+}
+
+.cityLv_num {
+    width: 10px;
+    height: 14px;
+    background: url(../res/city/lvNum.png);
+    float: left;
+    margin-left: -1px;
+}
+
+.refineLvNum {
+    width: 9px;
+    height: 11px;
+    background: url(../res/refine/refineLv.png);
+    float: left;
+    background-position-x: -90px;
+}
+
+.refineLv_num {
+    width: 9px;
+    height: 11px;
+    background: url(../res/refine/refineLv.png);
+    float: left;
+}
+
+.good_gold {
+    position: absolute;
+    right: 30px;
+    top: 10px;
+}
+
+#shopDialog {
+    width: 708px;
+    height: 335px;
+    background: #5A2A04;
+    position: relative;
+    top: 65px;
+    left: 52px;
+    border-radius: 10px;
+    border: 2px solid #391400;
+}
+
+#shop {
+    width: 800px;
+    height: 480px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+
+.shop_item {
+    position: absolute;
+    width: 110px;
+    height: 108px;
+}
+
+#shop_friend {
+    left: 442px;
+    top: 3px;
+    background-image: url(../res/shop/friend.png);
+}
+
+#shop_bag {
+    top: 3px;
+    left: 580px;
+    background-image: url(../res/shop/bag.png);
+}
+
+#shop_ship {
+    top: 114px;
+    left: 442px;
+    background-image: url(../res/shop/ship.png);
+}
+
+#shop_gold {
+    top: 114px;
+    left: 580px;
+    background-image: url(../res/shop/gold.png);
+}
+
+#shop_hero {
+    top: 224px;
+    left: 442px;
+    background-image: url(../res/shop/hero.png);
+}
+
+#shop_strength {
+    top: 224px;
+    left: 580px;
+    background-image: url(../res/shop/strength.png);
+}
+
+.shop_bug_btn {
+    width: 100px;
+    height: 40px;
+    background: orange;
+    border-radius: 10px;
+    position: absolute;
+    top: 60px;
+    left: 16px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+}
+
+#shop_list {
+    top: 167px;
+    background-image: url(../res/public/icon/gold.png);
+}
+
+#shop_coin {
+    top: 241px;
+    background-image: url(../res/public/icon/coin.png);
+}
+
+/*商城具体*/
+#lottery {
+    width: 514px;
+    height: 417px;
+    border-radius: 30px;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+}
+
+#lottery_title {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+#lottery_content {
+    width: 362px;
+    height: 186px;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    letter-spacing: 3px;
+    margin-left: 40px;
+    line-height: 25px;
+    margin-top: 20px;
+}
+
+#lottery_content3 {
+    width: 362px;
+    height: 186px;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    line-height: 31px;
+    margin-top: 40px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+#lottery_gold {
+    color: #26E50E;
+}
+
+#lottery_num {
+    color: #26E50E;
+}
+
+.lottery_btn {
+    background: orange;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    line-height: 40px;
+    text-align: center;
+}
+
+#lottery_one {
+    position: absolute;
+    left: 120px;
+    top: 320px;
+}
+
+#lottery_ten {
+    left: 260px;
+    position: absolute;
+    top: 320px;
+}
+
+#shop_bug_other {
+    width: 400px;
+    height: 200px;
+    background: brown;
+    border-radius: 40px;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+}
+
+#shop_bug_other_title {
+    font-size: 28px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+#shop_bug_other_btn {
+}
+
+#shop_bug_other_content {
+    text-align: center;
+    font-size: 20px;
+    color: red;
+    line-height: 40px;
+}
+
+.lottery_btn {
+    background: orange;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    line-height: 40px;
+    text-align: center;
+}
+
+#shop_bug_other_btnOk {
+    position: absolute;
+    left: 80px;
+    top: 133px;
+}
+
+#shop_bug_other_btnCancel {
+    position: absolute;
+    left: 250px;
+    top: 133px;
+}
+/*购买数量*/
+#chooseNum {
+    height: 200px;
+    width: 400px;
+    position: absolute;
+    z-index: 2;
+    background: red;
+    border-radius: 40px;
+}
+
+#chooseNumTitle {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.chooseNumBtn {
+    width: 53px;
+    height: 53px;
+    position: absolute;
+}
+
+#chooseNumNow {
+    width: 100px;
+    text-align: center;
+    font-size: 23px;
+    color: #26E50E;
+    position: absolute;
+    left: 150px;
+    top: 99px;
+}
+
+#chooseNumAdd {
+    background-image: url(../res/shop/sub.png);
+    left: 85px;
+    top: 89px;
+}
+
+#chooseNumSub {
+    background-image: url(../res/shop/add.png);
+    left: 265px;
+    top: 89px;
+}
+
+#chooseNumGold {
+    font-size: 18px;
+    color: white;
+    position: absolute;
+    left: 41px;
+    top: 167px;
+}
+
+#VIPchooseNumGold {
+    font-size: 18px;
+    color: white;
+    position: absolute;
+    top: 167px;
+    left: 220px;
+}
+
+
+#hero_icon_lv {
+    background-image: url(../res/public/icon/lv.png);
+}
+
+#hero_icon_adv {
+    background-image: url(../res/public/icon/adv.png);
+    top: 167px;
+}
+
+#hero_icon_skill {
+    background-image: url(../res/public/icon/skill.png);
+    top: 241px;
+}
+
+/*按钮*/
+.btn .btn1 {
+    width: 25px;
+    height: 41px;
+    background-image: url(../res/public/btn1.png);
+    float: left;
+    margin-left: -2px;
+}
+
+.btn .btn2 {
+    float: left;
+    font-size: 20px;
+    color: #D9B26D;
+    background-image: url(../res/public/btn2.png);
+    font-weight: bold;
+    line-height: 40px;
+    height: 41px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.btn .btn3 {
+    width: 24px;
+    height: 41px;
+    background-image: url(../res/public/btn3.png);
+    float: left;
+}
+
+/*灰色按钮*/
+.btn .abtn1 {
+    width: 25px;
+    height: 41px;
+    background-image: url(../res/public/abtn1.png);
+    float: left;
+    margin-left: -2px;
+}
+
+.btn .abtn2 {
+    float: left;
+    font-size: 20px;
+    color: #D9B26D;
+    background-image: url(../res/public/abtn2.png);
+    font-weight: bold;
+    line-height: 40px;
+    height: 41px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.abtn .btn3 {
+    width: 25px;
+    height: 41px;
+    background-image: url(../res/public/abtn3.png);
+    float: left;
+}
+
+.abtn .btn1 {
+    width: 25px;
+    height: 41px;
+    background-image: url(../res/public/abtn1.png);
+    float: left;
+    margin-left: -2px;
+}
+
+.abtn .btn2 {
+    float: left;
+    font-size: 20px;
+    color: #D9B26D;
+    background-image: url(../res/public/abtn2.png);
+    font-weight: bold;
+    line-height: 40px;
+    height: 41px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.btn .abtn3 {
+    width: 25px;
+    height: 41px;
+    background-image: url(../res/public/abtn3.png);
+    float: left;
+}
+
+
+/*蓝色按钮*/
+.sbtn .btn1 {
+    width: 25px;
+    height: 43px;
+    background-image: url(../res/public/b1.png);
+    float: left;
+}
+
+.sbtn .btn2 {
+    float: left;
+    font-size: 20px;
+    color: #D9B26D;
+    background-image: url(../res/public/b2.png);
+    font-weight: bold;
+    line-height: 40px;
+    height: 43px;
+}
+
+.sbtn .btn3 {
+    width: 25px;
+    height: 43px;
+    background-image: url(../res/public/b3.png);
+    float: left;
+}
+
+.btnDown .btn1 {
+    width: 30px;
+    height: 38px;
+    background-image: url(../res/public/sbtn1.png);
+    float: left;
+}
+
+.btnDown .btn2 {
+    float: left;
+    font-size: 18px;
+    color: white;
+    background-image: url(../res/public/sbtn2.png);
+    line-height: 38px;
+    height: 38px;
+}
+
+.btnDown .btn3 {
+    width: 30px;
+    height: 38px;
+    background-image: url(../res/public/sbtn3.png);
+    float: left;
+}
+
+
+#LvUp_Hero_Name {
+    width: 150px;
+    height: 40px;
+    background: url(../res/adv/nameBg.png);
+    position: absolute;
+    left: 157px;
+    top: 7px;
+}
+
+.hero_name_bg {
+    width: 150px;
+    height: 40px;
+    background: url(../res/adv/nameBg.png);
+    position: absolute;
+}
+
+#adv_heronext_name {
+    left: 520px;
+    top: 10px;
+}
+
+#adv_heronow_name {
+    left: 67px;
+    top: 10px;
+}
+
+
+.hero_Detail_Lv {
+    position: absolute;
+    right: 11px;
+    top: 40px;
+    font-size: 15px;
+}
+
+.hero_Detail_Exp {
+    position: absolute;
+    right: 11px;
+    top: 40px;
+    font-size: 15px;
+}
+
+#LvUpEatOk {
+    right: 66px;
+    display: none;
+}
+
+#LvUp_Hero_Name_Font, #LvUp_Hero_Name_Font2 {
+    font-size: 17px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+#LvUpHeroDetail_LvBg {
+    width: 70px;
+    height: 30px;
+    position: absolute;
+    left: 45px;
+    top: 67px;
+}
+
+#adv_condition {
+    width: 67px;
+    height: 73px;
+    position: absolute;
+    background-image: url(../res/adv/condition.png);
+    left: 338px;
+    top: 173px;
+}
+
+#advHeroDetail {
+    width: 222px;
+    height: 150px;
+    background-image: url(../res/adv/advBg.png);
+    position: absolute;
+    left: 258px;
+    top: 9px;
+    line-height: 30px;
+}
+
+#HeroChangeBtn {
+    right: 63px;
+}
+
+#equip_refine {
+    background-image: url(../res/public/icon/refine.png);
+}
+
+#equip_adv {
+    background-image: url(../res/public/icon/equipAdv.png);
+    top: 167px;
+}
+
+#equip_hole {
+    background-image: url(../res/public/icon/hole.png);
+    top: 241px;
+}
+
+#equip_make {
+    background-image: url(../res/public/icon/make.png);
+    top: 315px;
+}
+
+#equip_refineOne {
+    right: 54px;
+}
+
+#equip_refineTen {
+    right: 165px;
+}
+
+.equip_hero_detail_name {
+    position: absolute;
+    top: 14px;
+    left: 60px;
+}
+
+.equip_hero_detail_refine {
+    position: absolute;
+    top: 35px;
+    left: 60px;
+    font-size: 15px;
+    font-weight: normal;
+    color: white;
+}
+
+.equip_hero_detail_value {
+    position: absolute;
+    left: 60px;
+    top: 54px;
+    font-weight: normal;
+    font-size: 15px;
+    color: white;
+}
+
+.equip_hero_select {
+    width: 156px;
+    height: 44px;
+    background-image: url(../res/refine/heroClick.png);
+    top: 9px;
+    z-index: 1;
+    position: absolute;
+    display: none;
+}
+
+#equip_detail_select {
+    width: 216px;
+    height: 78px;
+    background-image: url(../res/refine/equipClick.png);
+    position: absolute;
+    z-index: 1;
+    margin-top: 6px;
+    left: -2px;
+}
+
+.equip_hr {
+    width: 6px;
+    height: 336px;
+    background-image: url(../res/refine/hr.png);
+    position: absolute;
+}
+
+#equip_hr1 {
+    top: -2px;
+    left: 315px;
+}
+
+#equip_hr2 {
+    top: -2px;
+    left: 542px;
+}
+
+#equip_gem_list_useValue {
+    position: absolute;
+    left: 141px;
+    top: 209px;
+    color: white;
+    font-size: 15px;
+}
+
+#equip_gem_list_castValue {
+    position: absolute;
+    left: 130px;
+    top: 304px;
+    color: white;
+    font-size: 15px;
+}
+
+#equip_makebtn {
+    right: 47px;
+}
+
+#equip_Hole_Main {
+    width: 350px;
+    height: 340px;
+    position: absolute;
+    background: url(../res/refine/hole.png) center no-repeat;
+    top: 0;
+    left: 0;
+    font-size: 14px;
+    text-shadow: -1px -1px 0 #000,1px -1px #000,1px 1px #000,-1px 1px #000;
+}
+
+#equip_refine_adv {
+    width: 350px;
+    height: 340px;
+    position: absolute;
+    background: url(../res/refine/adv.png) center no-repeat;
+    top: 0;
+    left: 0;
+    font-size: 14px;
+    text-shadow: -1px -1px 0 #000,1px -1px #000,1px 1px #000,-1px 1px #000;
+}
+
+#equip_advbtn {
+    right: 54px;
+}
+
+#equip_adv_need {
+    position: absolute;
+    color: white;
+    left: 100px;
+    top: 209px;
+}
+
+#hero_equip {
+    background-image: url(../res/public/icon/equip.png);
+}
+
+#equip_selectHero {
+    width: 150px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 4px;
+    background-image: url(../res/refine/hero.png);
+    background-position-y: 40px;
+    z-index: 2;
+}
+
+#equip_selectHero_content {
+    background-image: url(../res/refine/choose.png);
+    width: 116px;
+    height: 29px;
+    position: absolute;
+    left: 21px;
+    top: 15px;
+}
+
+.equipDetail_font {
+    color: #F2E234;
+}
+
+.equipDetail_font2 {
+    color: #26E50E;
+}
+
+#equipDialog_Hp {
+    margin-top: 37px;
+}
+
+.equip_man_job {
+    height: 28px;
+    width: 30px;
+    position: absolute;
+    top: -130px;
+    left: -10px;
+}
+
+#d_star {
+    width: 30px;
+    position: absolute;
+    z-index: 1;
+    background: url(../res/public/star.png);
+    left: -23px;
+    top: 8px;
+}
+
+#detail_something {
+    width: 230px;
+    font-size: 14px;
+    font-weight: bold;
+    color: gray;
+    position: absolute;
+    left: 20px;
+    top: 200px;
+}
+
+#d_btn {
+    right: 70px;
+    bottom: 15px;
+}
+
+.d_man_job {
+    height: 28px;
+    width: 30px;
+    position: absolute;
+    top: -125px;
+    left: -8px;
+    background-image: url(../res/public/job.png);
+}
+
+#d_type {
+    width: 41px;
+    height: 42px;
+    background-image: url(../res/public/type.png);
+    position: absolute;
+    left: 101px;
+    top: 115px;
+}
+
+
+.heroequip_heroDetail {
+    color: orange;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #000;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    top: -123px;
+    left: 6px;
+}
+
+#equipNowHero {
+    width: 220px;
+    height: 264px;
+    position: absolute;
+    left: 220px;
+    top: 57px;
+    z-index: 2;
+}
+
+.heroEquipshidi {
+    width: 97px;
+    height: 58px;
+    background-position: center;
+    position: absolute;
+    bottom: -3px;
+    left: 18px;
+    z-index: -1;
+}
+
+#equip_hr3 {
+    left: 315px;
+    top: -2px;
+}
+
+#sellBtn {
+    right: 40px;
+}
+
+.pieceNum {
+    position: absolute;
+    left: 91px;
+    top: 26px;
+}
+
+.pieceWn {
+    position: absolute;
+    left: 90px;
+    top: 48px;
+    font-size: 15px;
+}
+
+.pieceName {
+    position: absolute;
+    left: 92px;
+    top: 5px;
+    font-weight: bold;
+}
+
+.equip_hole_text {
+    font-size: 14px;
+    color: white;
+    position: absolute;
+    right: 2px;
+    bottom: -19px;
+    white-space: nowrap;
+    text-align: center;
+    width: 72px;
+}
+
+#lineupLeft {
+    width: 150px;
+    height: 320px;
+    background-image: url(../res/lineup/left.png);
+    position: absolute;
+    left: 50px;
+    top: 8px;
+}
+
+#lineupCenter {
+    width: 320px;
+    height: 320px;
+    background-image: url(../res/lineup/f/1000.png);
+    position: absolute;
+    top: 8px;
+    left: 207px;
+}
+
+#lineupRight {
+    width: 170px;
+    height: 318px;
+    background-image: url(../res/lineup/right.png);
+    position: absolute;
+    left: 536px;
+    top: 11px;
+}
+
+.lineup_small {
+    width: 77px;
+    height: 77px;
+    background-image: url(../res/lineup/bg.png);
+    background-position-y: 77px;
+    float: left;
+    margin-left: 2px;
+    margin-top: 2px;
+    left: 4px;
+    position: relative;
+}
+
+.lineup_smallSelect {
+    background-position-y: 0;
+}
+
+.lineup_icon {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    left: 9px;
+    top: 8px;
+}
+
+.lineup_small_select {
+    width: 81px;
+    height: 81px;
+    background-image: url(../res/lineup/select.png);
+    position: absolute;
+    left: -1px;
+    top: -2px;
+    display: none;
+}
+
+.lineup {
+    width: 102px;
+    height: 102px;
+    position: absolute;
+}
+
+#lineup_lead {
+    width: 62px;
+    height: 49px;
+    background-image: url(../res/lineup/lead.png);
+    position: absolute;
+    z-index: 1;
+    left: -2px;
+    top: 53px;
+}
+
+.lineupDiv {
+    width: 102px;
+    height: 102px;
+    position: absolute;
+    background: red;
+}
+
+.lineup_shou {
+    width: 50px;
+    height: 43px;
+    position: absolute;
+    z-index: 999;
+}
+
+#lineup_name {
+    width: 66px;
+    height: 28px;
+    background-image: url(../res/lineup/name.png);
+    margin-left: 40px;
+    margin-top: 6px;
+}
+
+#lineup_jiacheng {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: -1px -1px 0 #000,1px -1px #000,1px 1px #000,-1px 1px #000;
+    margin-top: 18px;
+}
+
+#lineup_content {
+    color: rgb(228, 218, 218);
+    font-size: 14px;
+    text-shadow: -1px -1px 0 #000,1px -1px #000,1px 1px #000,-1px 1px #000;
+    width: 113px;
+    margin-left: 22px;
+    margin-top: 23px;
+    line-height: 23px;
+}
+
+#lineup_btn {
+    width: 200px;
+    left: 10px;
+    top: 273px;
+    display: block;
+}
+
+#lineup_need {
+    font-size: 16px;
+    color: white;
+    position: absolute;
+    left: 28px;
+    top: 246px;
+}
+
+#lineupbtn {
+    background-image: url(../res/public/icon/lineup.png);
+}
+
+#u_lv {
+    position: absolute;
+    left: 25px;
+    top: 40px;
+}
+
+#u_strength_content {
+    width: 122px;
+}
+
+#messagebtn {
+    background-image: url(../res/public/icon/message.png);
+}
+
+#noticebtn {
+    background-image: url(../res/public/icon/notice.png);
+}
+
+#n_left {
+    width: 476px;
+    height: 335px;
+    position: absolute;
+    left: 60px;
+}
+
+#n_content {
+    width: 476px;
+    height: 276px;
+    background-image: url(../res/message/bg.png);
+    margin-top: 51px;
+}
+
+#n_content2 {
+    position: relative;
+    width: 455px;
+    color: white;
+    top: 10px;
+    left: 10px;
+    line-height: 22px;
+    font-size: 18px;
+}
+
+#n_title {
+    width: 476px;
+    text-align: center;
+    position: absolute;
+    font-size: 26px;
+    color: #F2E234;
+    top: 11px;
+    font-weight: bold;
+}
+
+#notice_wrapper {
+    position: absolute;
+    width: 475px;
+    height: 274px;
+}
+
+#notice_hr {
+    top: 65px;
+    left: 596px;
+}
+
+#heroequip_hr {
+    top: 65px;
+    left: 593px;
+}
+
+.lineup_use {
+    width: 73px;
+    height: 58px;
+    background-image: url(../res/lineup/use.png);
+    position: absolute;
+    top: 11px;
+    left: 3px;
+    display: none;
+}
+
+#advChoose {
+    width: 800px;
+    height: 480px;
+    margin: 0 auto;
+    position: absolute;
+    z-index: 1;
+}
+
+#shop_server {
+    background-image: url(../res/public/icon/shop.png);
+}
+
+.goodDetail_cast {
+    font-size: 16px;
+    font-weight: normal;
+    left: 10px;
+    top: 10px;
+    line-height: 20px;
+    position: absolute;
+    left: 276px;
+    z-index: 1;
+    top: 7px;
+    line-height: 31px;
+}
+
+.goodDetail_castbg {
+    width: 100px;
+    height: 57px;
+    background-image: url(../res/public/castBg.png);
+    position: absolute;
+    top: 7px;
+    left: 220px;
+}
+
+#shopserver_something {
+    white-space: nowrap;
+    font-size: 18px;
+    color: white;
+    position: relative;
+    left: 55px;
+    top: 86px;
+    text-shadow: -1px -1px 0 #000,1px -1px #000,1px 1px #000,-1px 1px #000;
+    display: none;
+    width: 500px;
+}
+
+#shop_something {
+    font-size: 18px;
+    color: white;
+    position: relative;
+    left: 55px;
+    top: 86px;
+    text-shadow: -1px -1px 0 #000,1px -1px #000,1px 1px #000,-1px 1px #000;
+    display: none;
+    width: 500px;
+}
+
+/*临时窗口*/
+#mess {
+    width: 476px;
+    height: 352px;
+    margin: 0 auto;
+    position: absolute;
+    z-index: 2;
+}
+
+#mess2 {
+    width: 476px;
+    height: 279px;
+    margin: 0 auto;
+    position: absolute;
+    z-index: 100;
+}
+
+#mess3 {
+    width: 476px;
+    height: 279px;
+    margin: 0 auto;
+    position: absolute;
+    z-index: 30;
+}
+
+
+.q_jiao {
+    width: 113px;
+    height: 78px;
+    background: url(../res/dialog/wj.png);
+    position: absolute;
+}
+
+.q_shangjiao {
+}
+
+.q_xiajiao {
+    right: 0;
+    -webkit-transform: scaleX(-1);
+}
+
+.q_zuojiao {
+    bottom: 0;
+    -webkit-transform: scaleY(-1);
+}
+
+.q_youjiao {
+    bottom: 0;
+    right: 0;
+    -webkit-transform: scaleY(-1) scaleX(-1);
+}
+
+.q_shangwaibian {
+    width: 251px;
+    height: 78px;
+    background: url(../res/dialog/wjBian1.png) repeat-x;
+    position: absolute;
+    left: 113px;
+}
+
+.q_xiawaibian {
+    width: 251px;
+    height: 78px;
+    background: url(../res/dialog/wjBian1.png) repeat-x;
+    -webkit-transform: scaleY(-1);
+    bottom: 0;
+    position: absolute;
+    left: 113px;
+}
+
+.q_zuowaibian {
+    width: 76px;
+    height: 125px;
+    background: url(../res/dialog/wjBian2.png) repeat-y;
+    position: absolute;
+    top: 78px;
+}
+
+.q_youwaibian {
+    width: 76px;
+    height: 125px;
+    background: url(../res/dialog/wjBian2.png) repeat-y;
+    -webkit-transform: scaleX(-1);
+    position: absolute;
+    top: 78px;
+    right: 0;
+}
+
+#q_title {
+    position: absolute;
+    z-index: 1;
+    left: 80px;
+}
+
+#q_titleLeft {
+    width: 112px;
+    height: 61px;
+    background: url(../res/dialog/title1.png);
+    float: left;
+}
+
+#q_titleCenter {
+    width: 114px;
+    height: 51px;
+    background: url(../res/dialog/title2.png);
+    float: left;
+    margin-top: 5px;
+}
+
+#q_titleRight {
+    width: 112px;
+    height: 61px;
+    background: url(../res/dialog/title1.png);
+    float: left;
+    -webkit-transform: scaleX(-1);
+}
+
+#q_titleContext {
+    background: url(../res/dialog/context.png);
+    margin-top: 11px;
+    height: 28px;
+    width: 114px;
+}
+/*临时窗口2*/
+
+.m_jiao {
+    width: 113px;
+    height: 78px;
+    background: url(../res/dialog/wj.png);
+    position: absolute;
+}
+
+.m_shangjiao {
+}
+
+.m_xiajiao {
+    right: 0;
+    -webkit-transform: scaleX(-1);
+}
+
+.m_zuojiao {
+    bottom: 0;
+    -webkit-transform: scaleY(-1);
+}
+
+.m_youjiao {
+    bottom: 0;
+    right: 0;
+    -webkit-transform: scaleY(-1) scaleX(-1);
+}
+
+.m_shangwaibian {
+    width: 251px;
+    height: 78px;
+    background: url(../res/dialog/wjBian1.png) repeat-x;
+    position: absolute;
+    left: 113px;
+}
+
+.m_xiawaibian {
+    width: 251px;
+    height: 78px;
+    background: url(../res/dialog/wjBian1.png) repeat-x;
+    -webkit-transform: scaleY(-1);
+    bottom: 0;
+    position: absolute;
+    left: 113px;
+}
+
+.m_zuowaibian {
+    width: 76px;
+    height: 125px;
+    background: url(../res/dialog/wjBian2.png) repeat-y;
+    position: absolute;
+    top: 78px;
+}
+
+.m_youwaibian {
+    width: 76px;
+    height: 125px;
+    background: url(../res/dialog/wjBian2.png) repeat-y;
+    -webkit-transform: scaleX(-1);
+    position: absolute;
+    top: 78px;
+    right: 0;
+}
+
+#m_title {
+    position: absolute;
+    z-index: 1;
+    left: 80px;
+}
+
+#m_titleLeft {
+    width: 112px;
+    height: 61px;
+    background: url(../res/dialog/title1.png);
+    float: left;
+}
+
+#m_titleCenter {
+    width: 114px;
+    height: 51px;
+    background: url(../res/dialog/title2.png);
+    float: left;
+    margin-top: 5px;
+}
+
+#m_titleRight {
+    width: 112px;
+    height: 61px;
+    background: url(../res/dialog/title1.png);
+    float: left;
+    -webkit-transform: scaleX(-1);
+}
+
+#m_titleContext {
+    background: url(../res/public/title/28.png);
+    margin-top: 12px;
+    height: 28px;
+    width: 114px;
+}
+
+#dialogclose {
+    width: 53px;
+    height: 53px;
+    background: url(../res/dialog/close.png);
+    z-index: 1;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+
+#tempDialog {
+    width: 402px;
+    height: 207px;
+    position: absolute;
+    background-color: #5A2A04;
+    top: 65px;
+    left: 34px;
+    border-radius: 10px;
+    border: 2px solid #391400;
+    overflow: hidden;
+}
+
+#tempDialog3 {
+    width: 402px;
+    height: 140px;
+    position: absolute;
+    background-color: #5A2A04;
+    top: 65px;
+    left: 34px;
+    border-radius: 10px;
+    border: 2px solid #391400;
+    overflow: hidden;
+}
+
+#tempDialog2 {
+    width: 402px;
+    height: 136px;
+    position: absolute;
+    background-color: #5A2A04;
+    top: 65px;
+    left: 34px;
+    border-radius: 10px;
+    border: 2px solid #391400;
+}
+
+.ShopBtn {
+    position: absolute;
+    bottom: 24px;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px #000;
+    right: 40px;
+}
+
+#onebtn {
+    left: 90px;
+}
+
+#tenbtn {
+    right: 80px;
+}
+
+#shopOkBtn {
+    left: 130px;
+}
+
+#shopCancelBtn {
+    right: 120px;
+}
+
+#flag {
+    width: 117px;
+    height: 148px;
+    background-image: url(../res/city/flag.png);
+    position: absolute;
+    left: -112px;
+    top: 18px;
+}
+
+#arenaBtn {
+    position: absolute;
+    bottom: 24px;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px #000;
+    right: 40px;
+}
+
+#arenaFresh {
+    position: absolute;
+    background-image: url(../res/arena/fresh.png);
+    width: 115px;
+    height: 32px;
+    top: 418px;
+    left: 500px;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    line-height: 32px;
+}
+
+#a_enemy_list {
+    margin-top: 7px;
+}
+
+#lineup_lv {
+    position: absolute;
+    left: 111px;
+    top: 13px;
+}
+
+#select_icon {
+    background-image: url(../res/public/icon/select.png);
+}
+
+#goodChooseBg {
+    width: 370px;
+    height: 96px;
+    background-image: url(../res/shop/goodBg.png);
+    position: absolute;
+    top: 99px;
+    left: 17px;
+}
+
+#goodnick {
+    color: white;
+    font-size: 28px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 25px;
+}
+
+.popDivLeft, .popDivRight {
+    height: 34px;
+    width: 26px;
+    background-image: url(../res/public/scroll2.png);
+    float: left;
+}
+
+.popDivRight {
+    -webkit-transform: scaleX(-1);
+}
+
+#popDiv {
+    position: absolute;
+    z-index: 99999;
+}
+
+.popDivCenter {
+    font-size: 30px;
+    font-weight: 900;
+    color: red;
+    z-index: 99999;
+    text-shadow: -1px -1px 0 #000,1px -1px #000,1px 1px #000,-1px 1px #000;
+    background-image: url(../res/public/scroll.png);
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    font-size: 20px;
+    white-space: nowrap;
+}
+
+#u_addClick {
+    width: 191px;
+    height: 71px;
+    position: absolute;
+    z-index: 1;
+    left: 190px;
+    top: 4px;
+}
+
+.equipData {
+    position: absolute;
+    color: white;
+    left: 3px;
+    width: 70px;
+    top: 80px;
+    text-align: center;
+}
+
+#friendAll {
+    background-image: url(../res/public/icon/friend1.png);
+}
+
+#friendManage {
+    top: 167px;
+    background-image: url(../res/public/icon/friend2.png);
+}
+
+.friendNameBg {
+    width: 244px;
+    height: 26px;
+    background-image: url(../res/friend/slide.png);
+    position: absolute;
+    left: 74px;
+    top: 10px;
+}
+
+.friendLv {
+    position: absolute;
+    left: 287px;
+    z-index: 1;
+    top: 8px;
+    font-size: 16px;
+}
+
+.friendTime {
+    font-size: 14px;
+    position: absolute;
+    left: 80px;
+    top: 41px;
+    z-index: 1;
+    color: lightgray;
+    text-shadow: -1px -1px 0 #000,1px -1px #000,1px 1px #000,-1px 1px #000;
+}
+
+#friendAcceptIcon {
+    background-image: url(../res/public/icon/friend3.png);
+    top: 241px;
+}
+
+.friendDelete {
+    width: 37px;
+    height: 32px;
+    background-image: url(../res/friend/delete.png);
+    position: absolute;
+    right: 10px;
+    top: 38px;
+}
+
+.friendAccept {
+    width: 37px;
+    height: 32px;
+    background-image: url(../res/friend/accept.png);
+    position: absolute;
+    right: 73px;
+    top: 38px;
+}
+
+#friendFont {
+    text-align: center;
+    font-size: 30px;
+    color: red;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+
+
+/*new*/
+#wartype_easy {
+    width: 64px;
+    height: 67px;
+    z-index: 1;
+    position: absolute;
+    background: url(../res/battle/type_easy.png) no-repeat;
+    left: 20px;
+    top: 150px;
+}
+
+#wartype_hard {
+    width: 64px;
+    height: 67px;
+    z-index: 1;
+    position: absolute;
+    background: url(../res/battle/type_hard.png) no-repeat;
+    left: 20px;
+    top: 240px;
+}
+
+#wardetailbox {
+    width: 108px;
+    height: 315px;
+    z-index: 1;
+    position: absolute;
+    background: url(../res/battle/messbox.png) no-repeat;
+    left: 40px;
+}
+
+#warpointBox {
+    z-index: 1;
+    position: absolute;
+    width: 550px;
+    height: 340px;
+    left: 150px;
+}
+
+.warpoint {
+    width: 128px;
+    border-radius: 100px;
+    height: 98px;
+    float: left;
+    margin-left: 8px;
+    margin-bottom: 8px;
+    position: relative;
+    top: 10px;
+    font-size: 14px;
+    text-shadow: -1px -1px 0 #000,1px -1px #000,1px 1px #000,-1px 1px #000;
+    color: White;
+    text-align: center;
+    line-height: 145px;
+}
+
+.warselect {
+    z-index: 1;
+    position: absolute;
+    background: url(../res/battle/select.png) no-repeat;
+    height: 81px;
+    width: 98px;
+    left: 50px;
+    top: -7px;
+}
+
+#wardataBox {
+    width: 98px;
+    height: 120px;
+    top: 25px;
+    z-index: 1;
+    position: absolute;
+    left: 5px;
+    font-size: 16px;
+    text-shadow: -1px -1px 0 #000,1px -1px #000,1px 1px #000,-1px 1px #000;
+    color: White;
+}
+
+#wardropBox {
+    width: 98px;
+    height: 120px;
+    top: 195px;
+    z-index: 1;
+    position: absolute;
+    left: 5px;
+    font-size: 16px;
+    text-shadow: -1px -1px 0 #000,1px -1px #000,1px 1px #000,-1px 1px #000;
+    color: White;
+}
+
+#hisMune {
+    position: absolute;
+    z-index: 10;
+    height: 63px;
+    width: 730px;
+    bottom: 1px;
+}
+
+#hisMune div {
+    position: relative;
+    float: left;
+    margin-right: 10px;
+}
+
+.hisPageBtn {
+    width: 39px;
+    height: 63px;
+    background: url(../res/battle/hispageBtn.png) no-repeat;
+}
+
+.right {
+    -webkit-transform: scaleX(-1);
+}
+
+.hisItem {
+    width: 148px;
+    height: 62px;
+    background: url(../res/battle/hisbg.png) no-repeat;
+}
+
+.hisfont {
+    width: 124px;
+    height: 40px;
+    left: 12px;
+    top: 11px;
+    position: absolute;
+    background: url(../res/battle/hisfont.png) no-repeat;
+}
+
+.hisLock {
+    width: 43px;
+    height: 46px;
+    position: absolute;
+    background: url(../res/battle/lock.png) no-repeat;
+    left: 52px;
+    top: -52px;
+}
+
+.firstkill {
+    width: 148px;
+    height: 56px;
+    position: absolute;
+    top: -50px;
+    left: -7px;
+    background: url(../res/battle/firstkill.png) no-repeat;
+    font-size: 12px;
+    text-shadow: -1px -1px 0 #000,1px -1px #000,1px 1px #000,-1px 1px #000;
+    color: White;
+    text-align: center;
+    line-height: 75px;
+}
+
+#FirstKillBtn {
+    width: 60px;
+    height: 60px;
+    background: url(../res/battle/reward.png);
+    z-index: 2;
+    position: absolute;
+    right: 72px;
+    top: 4px;
+}
+
+#FirstKillDia {
+    width: 530px;
+    height: 480px;
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+    z-index: 20;
+}
+
+.FirstkillItem {
+    position: relative;
+    width: 382px;
+    height: 74px;
+    background: url(../res/battle/fkbg.png) no-repeat;
+    margin-bottom: 3px;
+    font-size: 14px;
+    text-shadow: -1px -1px 0 #000,1px -1px #000,1px 1px #000,-1px 1px #000;
+    padding: 6px 0 0 80px;
+    line-height: 20px;
+    font-family: 微软雅黑;
+    color: White;
+}
+
+.StateLabel {
+    width: 71px;
+    height: 58px;
+    position: absolute;
+    left: 300px;
+    top: 9px;
+    background: url(../res/battle/no.png) no-repeat;
+}
+
+#fkDetail {
+    position: absolute;
+    font-size: 14px;
+    left: 80px;
+    top: 405px;
+    width: 390px;
+    text-shadow: -1px -1px 0 #000,1px -1px #000,1px 1px #000,-1px 1px #000;
+    line-height: 20px;
+    font-family: 微软雅黑;
+    font-weight: 400;
+    color: White;
+}
+
+.passLabel {
+    position: absolute;
+    width: 71px;
+    height: 68px;
+    background: url(../res/battle/pass.png) no-repeat;
+    top: 10px;
+    right: 10px;
+}
+
+.yxzbody {
+    position: absolute;
+    width: 182px;
+    height: 238px;
+    background-repeat: no-repeat;
+}
+
+#yxz {
+    position: absolute;
+    z-index: 1;
+    overflow: hidden;
+}
+
+#yxzHeroInfo {
+    width: 516px;
+    height: 410px;
+    position: absolute;
+    top: 113px;
+    background: url(../res/yxz/messbg.png) no-repeat;
+    z-index: 100;
+}
+
+#yxzDropDiv {
+    width: 276px;
+    height: 255px;
+    position: absolute;
+    background: url(../res/yxz/dropBG.png) no-repeat;
+    top: 60px;
+    right: 20px;
+}
+
+.yxzDetail {
+    position: absolute;
+    font-size: 14px;
+    width: 170px;
+    left: 40px;
+    text-shadow: -1px -1px 0 #000,1px -1px #000,1px 1px #000,-1px 1px #000;
+    line-height: 20px;
+    font-family: 微软雅黑;
+    font-weight: 400;
+    color: White;
+}
+
+
+.u_add {
+    width: 40px;
+    height: 40px;
+    background-image: url(../res/arena/bug.png);
+    position: absolute;
+    left: 346px;
+    top: 31px;
+    z-index: 10;
+}
+
+.fontstyle {
+    text-shadow: -1px -1px 0 #000,1px -1px #000,1px 1px #000,-1px 1px #000;
+    line-height: 28px;
+    font-family: 微软雅黑;
+    font-weight: 400;
+    color: White;
+    font-size: 14px;
+    text-align: center;
+}
+
+
+/*new end*/
+#friendDelete {
+    left: 120px;
+}
+
+#friendCancel {
+    right: 120px;
+}
+
+#friendFindText {
+    color: white;
+    text-align: center;
+    margin-top: 9px;
+    font-size: 17px;
+}
+
+#friendInput {
+    border: none;
+    background-image: url(../res/public/nameBg.png);
+    width: 150px;
+    height: 30px;
+    background-color: transparent;
+    padding: 0;
+    float: left;
+    position: absolute;
+    left: 60px;
+    top: 45px;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+#friendFindBtn {
+    left: 233px;
+    top: 40px;
+}
+
+#friendMessage {
+    color: red;
+    position: absolute;
+    left: 70px;
+    top: 110px;
+    font-weight: bold;
+    width: 240px;
+    display: none;
+}
+
+#friendFindDetail {
+    position: absolute;
+    left: 30px;
+    top: 100px;
+}
+
+#friendFind {
+    display: block;
+}
+
+.hero_something {
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+    margin-left: 20px;
+}
+
+#taskIcon {
+    background-image: url(../res/public/icon/task.png);
+}
+
+#task_detail_juti {
+    position: absolute;
+    top: 72px;
+    left: 10px;
+    width: 407px;
+}
+
+#task_detail_mubiao {
+    position: absolute;
+    top: 165px;
+    left: 10px;
+    width: 407px;
+}
+
+#task_detail_jiangli {
+    position: absolute;
+    top: 224px;
+    left: 10px;
+    width: 407px;
+}
+
+#taskName {
+    position: absolute;
+    left: 140px;
+    top: 3px;
+    width: 200px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: orange;
+}
+
+.task_select {
+    width: 156px;
+    height: 44px;
+    background-image: url(../res/refine/heroClick.png);
+    top: 9px;
+    left: 8px;
+    z-index: 1;
+    position: absolute;
+    display: none;
+}
+
+#task_left .swiper-slide {
+    position: relative;
+}
+
+.takename {
+    position: absolute;
+    left: 114px;
+    top: 9px;
+    z-index: 1;
+}
+
+.take_f {
+    position: absolute;
+    left: 193px;
+    z-index: 1;
+    top: 8px;
+    text-shadow: -1px -1px 0 #000,1px -1px #000,1px 1px #000,-1px 1px #000;
+}
+
+.take_point {
+    z-index: 1;
+    position: absolute;
+    left: 80px;
+    top: 39px;
+}
+
+.take_skillname {
+    position: absolute;
+    z-index: 1;
+    right: 10px;
+    top: 10px;
+    right: 10px;
+    top: 41px;
+    color: white;
+    font-size: 15px;
+}
+
+.goodDetail_coin {
+    height: 28px;
+    position: absolute;
+    top: 26px;
+    left: 273px;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 26px;
+    position: absolute;
+    z-index: 1;
+}
+
+.ad {
+    width: 380px;
+    height: 140px;
+    position: absolute;
+}
+
+#ad1 {
+    left: 43px;
+    top: 20px;
+    /*background-image: url(http://www.play824.com:1089/apk/zjtl/ad001.png);*/
+}
+
+#ad2 {
+    left: 43px;
+    top: 176px;
+    /*background-image: url(http://www.play824.com:1089/apk/zjtl/ad002.png);*/
+}
+
+#flagData1 {
+    color: #26E50E;
+    font-size: 17px;
+    font-weight: bold;
+    position: absolute;
+    left: 15px;
+    top: 58px;
+    text-shadow: -1px -1px 0 #000,1px -1px #000,1px 1px #000,-1px 1px #000;
+    text-align: center;
+    width: 88px;
+}
+
+#flagData2 {
+    color: #26E50E;
+    font-size: 17px;
+    font-weight: bold;
+    position: absolute;
+    left: 16px;
+    top: 92px;
+    text-shadow: -1px -1px 0 #000,1px -1px #000,1px 1px #000,-1px 1px #000;
+    text-align: center;
+    width: 88px;
+}
+
+#hero_icon {
+    background-image: url(../res/public/icon/help.png);
+}
+
+#u_exp_content {
+    width: 96px;
+    text-align: center;
+    line-height: 18px;
+}
+
+#shopPopCancelBtn {
+    right: 200px;
+}
+
+#shopPopTitle {
+    font-size: 20px;
+    font-weight: bold;
+    color: #26E50E;
+}
+
+.wardItem {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    z-index: 1;
+    color: white;
+    font-size: 30px;
+    text-indent: 40px;
+}
+
+#d_bg {
+    width: 650px;
+    height: 440px;
+    background-image: url(../res/detail/detail.png);
+    left: 300px;
+    position: absolute;
+    z-index: 20;
+}
+
+#d_headBg {
+    background-image: url(../res/refine/hero.png);
+    width: 150px;
+    height: 40px;
+    left: 41px;
+    top: 71px;
+    position: absolute;
+}
+
+#d_left {
+    width: 276px;
+    height: 284px;
+    left: 351px;
+    top: 61px;
+    position: absolute;
+}
+
+
+.wardDiv {
+    text-indent: 40px;
+    line-height: 42px;
+    font-size: 20px;
+    float: left;
+    margin-right: 50px;
+    z-index: 99999;
+    font-size: 20px;
+    font-weight: bold;
+    color: #26E50E;
+    text-shadow: -1px -1px 0 #000,1px -1px #000,1px 1px #000,-1px 1px #000;
+}
+
+.wardDivTemp {
+    min-width: 166px;
+    text-indent: 40px;
+    line-height: 42px;
+    font-size: 20px;
+    float: left;
+    margin-right: 50px;
+    z-index: 99999;
+    font-size: 20px;
+    font-weight: bold;
+    color: #26E50E;
+    text-shadow: -1px -1px 0 #000,1px -1px #000,1px 1px #000,-1px 1px #000;
+}
+
+#bag_all {
+    background-image: url(../res/public/icon/bag_all.png);
+}
+
+#bag_equip {
+    background-image: url(../res/public/icon/equip.png);
+    top: 167px;
+}
+
+#bag_hole {
+    background-image: url(../res/public/icon/bag_hole.png);
+    top: 241px;
+}
+
+#bag_material {
+    background-image: url(../res/public/icon/bag_material.png);
+    top: 315px;
+}
+
+
+#vipBg {
+    width: 652px;
+    height: 323px;
+    background-image: url(../res/vip/myBg.png);
+    position: absolute;
+    left: 39px;
+    top: 5px;
+    color: white;
+    font-size: 16px;
+    text-indent: 20px;
+}
+
+#vip_name {
+    color: orange;
+}
+
+#vip_vipLv {
+    position: absolute;
+    left: 80px;
+    top: 39px;
+    background-image: url(../res/city/vip.png);
+    width: 34px;
+    height: 15px;
+}
+
+#vip_time_info {
+    position: absolute;
+    left: 190px;
+    top: 160px;
+    color: gray;
+}
+
+#vip_posBox {
+    height: 83px;
+    background-image: url(../res/vip/posBox.png);
+    width: 103px;
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+}
+
+#vip_reward_detail {
+    position: absolute;
+    left: 185px;
+    bottom: 17px;
+    color: white;
+    line-height: 33px;
+}
+
+#vipRewardBtn {
+    bottom: 4px;
+    left: 277px;
+    background-repeat: no-repeat;
+}
+
+#vip_posImg {
+    position: absolute;
+    left: 427px;
+    top: 69px;
+    width: 80px;
+    background-image: url(../res/vip/print/1.png);
+    height: 80px;
+}
+
+#vip_posDetail {
+    color: white;
+    position: absolute;
+    left: 537px;
+    top: 64px;
+    line-height: 26px;
+}
+
+#vip_posContent {
+    width: 98px;
+    background-image: url(../res/vip/name.png);
+    height: 30px;
+    position: absolute;
+    top: 140px;
+    left: 419px;
+}
+
+#vip_nowHeroNum {
+    position: absolute;
+    top: 198px;
+    left: 425px;
+    color: white;
+    font-size: 18px;
+}
+
+#vip_pop {
+    position: absolute;
+    top: 248px;
+    left: 404px;
+    color: red;
+    font-size: 15px;
+}
+
+#vip_btnReward {
+    position: absolute;
+    left: 472px;
+    top: 279px;
+}
+
+#ceoIcon {
+    background-image: url(../res/public/icon/ceo.png);
+}
+
+#vipIcon {
+    background-image: url(../res/public/icon/vip.png);
+    top: 167px;
+}
+
+#ceoDialog {
+    height: 335px;
+    width: 710px;
+    background: #5A2A04;
+    position: relative;
+    top: 65px;
+    left: 55px;
+    border-radius: 10px;
+    border: 2px solid #391400;
+}
+
+#vip_lvBg {
+    background-image: url(../res/vip/vipBg.png);
+    width: 652px;
+    height: 323px;
+    position: absolute;
+    left: 40px;
+    top: 5px;
+    color: white;
+}
+
+#vip_slide {
+    width: 400px;
+    height: 28px;
+    position: absolute;
+    left: 12px;
+    top: 70px;
+}
+
+#vip_slideimg {
+    background-image: url(../res/vip/slide2.png);
+    width: 272px;
+    height: 16px;
+    position: absolute;
+    left: 5px;
+    top: 7px;
+}
+
+#vip_lvContent {
+    position: absolute;
+    left: 25px;
+    top: 45px;
+}
+
+#vip_lvNeed {
+    position: absolute;
+    left: 0px;
+    top: 100px;
+    text-align: center;
+    width: 304px;
+}
+
+#vip_lvPen {
+    position: absolute;
+    right: 362px;
+    top: 45px;
+    color: #26E50E;
+}
+
+.vip_Something1 {
+    position: absolute;
+    left: 40px;
+    top: 64px;
+    line-height: 25px;
+}
+
+#heroequip_lv {
+    position: absolute;
+    top: 72px;
+    left: 158px;
+}
+
+#vip_rewardImg {
+    width: 103px;
+    height: 83px;
+    background-image: url(../res/vip/reward.png);
+    position: absolute;
+    left: 190px;
+    top: 230px;
+    z-index: 2;
+}
+
+#posBg {
+    width: 652px;
+    height: 322px;
+    background-image: url(../res/vip/posBg.png);
+    position: absolute;
+    left: 50px;
+    top: 8px;
+}
+
+#pos1Img, #pos2Img {
+    width: 80px;
+    height: 80px;
+    left: 41px;
+    top: 62px;
+    background-image: url(../res/vip/print/1.png);
+    position: absolute;
+}
+
+#pos1Content, #pos2Content {
+    width: 98px;
+    height: 30px;
+    background-image: url(../res/vip/name.png);
+    position: absolute;
+    left: 30px;
+    top: 130px;
+}
+
+#pos1Detail, #pos2Detail {
+    color: white;
+    line-height: 22px;
+    position: absolute;
+    left: 150px;
+    top: 57px;
+}
+
+#pos1Fame, #pos2Fame {
+    position: absolute;
+    top: 192px;
+    left: 34px;
+    color: white;
+}
+
+#pos1NeedFame, #pos2NeedFame {
+    position: absolute;
+    top: 239px;
+    left: 34px;
+    color: white;
+}
+
+#pos1Coin, #pos2Coin {
+    position: absolute;
+    top: 286px;
+    left: 34px;
+    color: white;
+}
+
+#pos2NeedFame {
+    left: 380px;
+}
+
+#pos2NeedFame {
+    left: 380px;
+}
+
+#pos2Img {
+    left: 388px;
+}
+
+#pos2Content {
+    left: 379px;
+}
+
+#pos2Detail {
+    left: 500px;
+}
+
+#pos2Fame {
+    left: 380px;
+}
+
+#pos2Coin {
+    left: 380px;
+}
+
+
+#posIcon {
+    background-image: url(../res/public/icon/pos.png);
+}
+
+#find {
+    background-image: url(../res/shop/bg.png);
+    width: 574px;
+    height: 447px;
+    position: absolute;
+    z-index: 99;
+}
+
+#shopAnimate {
+    width: 350px;
+    height: 350px;
+    background-image: url(../res/animate/shop.png);
+    position: absolute;
+    z-index: 999;
+}
+
+#shopOneContinue {
+    left: 130px;
+    bottom: 0px;
+}
+
+#shopTenContinue {
+    right: 100px;
+    bottom: 0px;
+}
+
+
+#vip_time {
+    position: absolute;
+    top: 160px;
+}
+
+#vip_strength {
+    position: absolute;
+    top: 135px;
+}
+
+#vip_lead {
+    position: absolute;
+    top: 110px;
+}
+
+#vip_exp {
+    position: absolute;
+    top: 85px;
+}
+
+#vip_name {
+    position: absolute;
+    top: 35px;
+    color: orange;
+}
+
+#vip_lv {
+    position: absolute;
+    top: 60px;
+}
+
+#detail_skillNormal {
+    position: absolute;
+    width: 254px;
+    top: -2px;
+}
+
+#detail_skillActive {
+    width: 254px;
+    position: absolute;
+    top: 44px;
+}
+
+#detail_skillPassive {
+    position: absolute;
+    top: 92px;
+    width: 254px;
+}
+
+#detail_skillLeader {
+    position: absolute;
+    top: 139px;
+    width: 254px;
+}
+
+.bagNum {
+    position: absolute;
+    color: white;
+    right: 7px;
+    bottom: 5px;
+}
+
+.eatAnimate {
+    width: 180px;
+    height: 180px;
+    background-image: url(../res/animate/lvup.png);
+    position: absolute;
+    z-index: 1;
+    background-position-x: 0;
+    left: -52px;
+    top: -48px;
+}
+
+#ac_bg {
+    width: 700px;
+    height: 460px;
+    background-image: url(../res/activity/bg.png);
+    position: relative;
+    z-index: 1;
+    margin: 0 auto;
+}
+
+.acPage {
+    width: 500px;
+    height: 356px;
+    position: relative;
+    left: 50px;
+}
+
+.acSlide {
+    width: 500px;
+    height: 74px;
+    background-image: url(../res/activity/slide.png);
+    margin-top: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    position: relative;
+}
+
+.acSlide2 {
+    width: 500px;
+    height: 74px;
+    background-image: url(../res/activity/slide.png);
+    margin-top: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    position: relative;
+    display: none;
+}
+
+.acHead {
+    background-image: url(../res/activity/boss.png);
+    width: 78px;
+    height: 78px;
+    position: absolute;
+    top: -2px;
+    left: -1px;
+}
+
+.acState {
+    width: 69px;
+    height: 66px;
+    background-image: url(../res/activity/state.png);
+    position: absolute;
+    right: 11px;
+    top: 4px;
+}
+
+.acName {
+    position: absolute;
+    left: 91px;
+    top: 12px;
+    color: #26E50E;
+}
+
+.acTime {
+    position: absolute;
+    right: 100px;
+    top: 12px;
+    color: #F2E234;
+}
+
+.acDetail {
+    position: absolute;
+    left: 90px;
+    top: 46px;
+    color: white;
+    font-size: 13px;
+}
+
+#ac_Name {
+    width: 141px;
+    height: 40px;
+    background-image: url(../res/activity/name.png);
+    position: absolute;
+    left: 282px;
+    top: 14px;
+}
+
+#ac_left {
+    width: 32px;
+    height: 62px;
+    background-image: url(../res/public/v1.png);
+    position: absolute;
+    left: 44px;
+    top: 200px;
+    z-index: 2;
+}
+
+#ac_right {
+    width: 32px;
+    height: 62px;
+    background-image: url(../res/public/v2.png);
+    position: absolute;
+    left: 620px;
+    top: 189px;
+    z-index: 2;
+}
+
+@font-face {
+    font-family: nobody;
+    src: url(../res/font/nobody.ttf);
+}
+
+#pagePrevBtn {
+    width: 60px;
+    height: 60px;
+    background-image: url(../res/public/left.png);
+    position: absolute;
+    bottom: 18px;
+    left: 15px;
+}
+
+#lineupBtn {
+    bottom: 27px;
+}
+
+#pageNextBtn {
+    width: 60px;
+    height: 60px;
+    background-image: url(../res/public/right.png);
+    position: absolute;
+    bottom: 18px;
+    left: 197px;
+}
+
+#rankSlide {
+    width: 440px;
+    height: 13px;
+    background-image: url(../res/arena/slide.png);
+    position: absolute;
+    left: 72px;
+    top: 110px;
+}
+
+#rankList1, #rankList2, #rankList3, #rankList4 {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    left: 80px;
+    top: 89px;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+#rankList2 {
+    left: 210px;
+    text-align: left;
+}
+
+#rankList3 {
+    left: 320px;
+    text-align: center;
+}
+
+#rankList4 {
+    left: 410px;
+    text-align: center;
+}
+
+.ac_leftNum {
+    position: absolute;
+    right: 100px;
+    top: 45px;
+    color: #F2E234;
+}
+
+.vip_nowVip {
+    position: absolute;
+    left: 92px;
+    top: 35px;
+    font-size: 20px;
+}
+
+.vip_margin {
+    left: 250px;
+    width: 300px;
+    margin: 2px;
+}
+
+#lvupAnimate {
+    background-image: url(../res/animate/adv.png);
+    width: 346px;
+    height: 384px;
+    position: absolute;
+    left: -65px;
+    top: -67px;
+    z-index: 99;
+}
+
+#lvupAnimate2 {
+    background-image: url(../res/animate/adv.png);
+    width: 346px;
+    height: 384px;
+    position: absolute;
+    left: -65px;
+    top: -67px;
+    z-index: 9999;
+}
+
+#equip_animate {
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    background-image: url(../res/animate/equip.png);
+    left: -49px;
+    top: -54px;
+}
+
+#equip_big_name {
+    width: 200px;
+    text-align: center;
+    font-size: 30px;
+    position: absolute;
+    left: 76px;
+    top: 41px;
+    text-shadow: -1px -1px 0 #000,1px -1px #000,1px 1px #000,-1px 1px #000;
+}
+
+#arenaRewardOk {
+    background-image: url(../res/message/btn.png);
+    width: 73px;
+    height: 58px;
+    position: absolute;
+    left: -10px;
+}
+
+#bugArena {
+    width: 156px;
+    height: 52px;
+    background-image: url(../res/arena/bug.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 205px;
+    left: 253px;
+}
+
+#a_rank_honor {
+    position: absolute;
+    left: 211px;
+    top: 107px;
+}
+
+.advHead {
+    width: 76px;
+    height: 76px;
+    background-image: url(../res/public/adv.png);
+    position: absolute;
+}
+
+#equiplvupAnimate {
+    width: 180px;
+    height: 180px;
+    background-image: url(../res/animate/lvup.png);
+    position: absolute;
+    left: -50px;
+    top: -47px;
+    z-index: 9999;
+}
+
+#pieceHeroNum {
+    width: 200px;
+    font-size: 20px;
+    color: white;
+    top: -40px;
+    left: 44px;
+    position: absolute;
+    z-index: 1;
+    font-weight: bold;
+    text-shadow: -1px -1px 0 #000,1px -1px #000,1px 1px #000,-1px 1px #000;
+}
+
+.yxzPassLabel {
+    position: absolute;
+    width: 75px;
+    height: 59px;
+    background: url(../res/yxz/pass.png) no-repeat;
+    left: 54px;
+    top: 90px;
+}
+
+.cityHeroLv {
+    position: absolute;
+    top: 134px;
+    left: 48px;
+    z-index: 1;
+}
+
+#b_choose {
+    position: absolute;
+    width: 330px;
+    height: 284px;
+    background-image: url(../res/detail/chooseBg.png);
+    z-index: 100;
+}
+
+.b_c_check {
+    width: 37px;
+    height: 31px;
+    background-image: url(../res/public/choose.png);
+    position: absolute;
+    left: 80px;
+    top: 20px;
+}
+
+.b_c_checkHover {
+    background-position-x: -37px;
+}
+
+#b_c_all {
+    width: 142px;
+    height: 80px;
+    position: absolute;
+    left: 30px;
+    top: 40px;
+}
+
+#b_c_equip {
+    width: 142px;
+    height: 80px;
+    position: absolute;
+    left: 30px;
+    top: 114px;
+}
+
+#b_c_hole {
+    width: 142px;
+    height: 80px;
+    position: absolute;
+    left: 175px;
+    top: 114px;
+}
+
+#b_c_meta {
+    width: 142px;
+    height: 80px;
+    position: absolute;
+    left: 30px;
+    top: 184px;
+}
+
+#b_c_use {
+    width: 142px;
+    height: 80px;
+    position: absolute;
+    left: 175px;
+    top: 184px;
+}
+
+.bag_has_hole {
+    width: 48px;
+    height: 46px;
+    background-image: url(../res/public/hole.png);
+    position: absolute;
+    right: 8px;
+    top: 15px;
+}
+
+#b_bg_s {
+    background-image: url(../res/detail/t1.png);
+    height: 13px;
+    width: 276px;
+}
+
+#b_bg_x {
+    background-image: url(../res/detail/t3.png);
+    height: 13px;
+    width: 276px;
+}
+
+#b_bg_m {
+    background-image: url(../res/detail/t2.png);
+    width: 276px;
+    background-repeat: repeat-y;
+    background-position: center;
+}
+
+#b_bg {
+    position: absolute;
+    z-index: 22;
+    color: white;
+}
+
+#b_detail1 {
+    position: relative;
+    color: red;
+    font-size: 20px;
+    left: 100px;
+    font-weight: bold;
+}
+
+.b_slide {
+    width: 268px;
+    height: 13px;
+    background-image: url(../res/detail/slide.png);
+}
+
+#b_detail2 {
+    position: relative;
+    left: 100px;
+    line-height: 24px;
+    font-size: 15px;
+    padding-bottom: 6px;
+}
+
+#b_detail3 {
+    position: relative;
+    left: 20px;
+    line-height: 24px;
+    font-size: 15px;
+}
+
+#b_detail4 {
+    position: relative;
+    left: 20px;
+    line-height: 24px;
+    font-size: 15px;
+}
+
+#b_detail5 {
+    position: relative;
+    left: 20px;
+    width: 240px;
+    line-height: 24px;
+    font-size: 15px;
+    padding-top: 12px;
+    padding-bottom: 30px;
+}
+
+.heroTable {
+    margin-left: 100px;
+    margin-top: 5px;
+    width: 230px;
+}
+
+.noHeroHeadBg {
+    width: 78px;
+    height: 78px;
+    z-index: 1;
+    left: 2px;
+    top: 3px;
+    float: left;
+    position: relative;
+}
+
+.pieceTable {
+    margin-left: 100px;
+    margin-top: 5px;
+    line-height: 30px;
+    width: 230px;
+}
+
+.rewardMune {
+    width: 150px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 4px;
+    background: url(../res/refine/hero.png) no-repeat 0 -40px;
+    z-index: 2;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    line-height: 40px;
+}
+
+.rewardMuneShow {
+    background-position: 0 0;
+    color: orange;
+}
+
+#rewardClick {
+    position: absolute;
+    width: 156px;
+    height: 44px;
+    background: url(../res/refine/heroClick.png) no-repeat;
+    left: 0px;
+}
+
+#rewardInfo {
+    width: 480px;
+    height: 330px;
+    left: 50px;
+    top: 6px;
+    position: absolute;
+}
+
+.RewardItem {
+    position: relative;
+    width: 480px;
+    height: 74px;
+    background: url(../res/reward/item.png) no-repeat;
+    margin-bottom: 8px;
+    text-shadow: -1px -1px 0 #000,1px -1px #000,1px 1px #000,-1px 1px #000;
+}
+
+.RewardItem .lv {
+    position: absolute;
+    font-size: 16px;
+    color: #ffff00;
+    top: 42px;
+    left: 54px;
+}
+
+.RewardItem .icon {
+    position: absolute;
+    font-size: 14px;
+    color: #fff;
+    top: 16px;
+    left: 160px;
+    height: 40px;
+    padding-left: 45px;
+    line-height: 40px;
+}
+
+.RewardItem .vip {
+    position: absolute;
+    top: 23px;
+    left: 240px;
+    height: 30px;
+    background: url(../res/reward/VIP.png) no-repeat;
+    width: 93px;
+}
+
+.ScItem {
+    background-position: 0 -74px;
+}
+
+.ScItem .icon {
+    position: relative;
+    margin-right: 20px;
+    float: left;
+    left: 30px;
+}
+
+.LcItem {
+    background-position: 0 -148px;
+}
+
+.LcItem .amount {
+    position: absolute;
+    font-size: 18px;
+    color: #ffff00;
+    top: 37px;
+    left: 4px;
+    text-align: center;
+    width: 110px;
+}
+
+.LcItem .icon {
+    position: relative;
+    margin-right: 20px;
+    float: left;
+    left: 115px;
+    padding-left: 40px;
+}
+
+.LcItem .vip {
+    left: 10px;
+}
+
+.LcItem .vip .gift {
+    left: 95px;
+    top: -5px;
+}
+
+.RewardItem .gift {
+    height: 40px;
+    width: 47px;
+    background: url(../res/reward/gift.png) no-repeat;
+    position: absolute;
+    left: 330px;
+    top: 16px;
+}
+
+#a_user_me_lv {
+    position: absolute;
+    top: 58px;
+    left: 8px;
+    z-index: 1;
+}
+
+#d_equip0 {
+    width: 78px;
+    height: 78px;
+    position: absolute;
+    left: 21px;
+    top: 114px;
+    z-index: 2;
+}
+
+#d_equip1 {
+    width: 78px;
+    height: 78px;
+    position: absolute;
+    left: 263px;
+    top: 114px;
+    z-index: 2;
+}
+
+#d_equip2 {
+    width: 78px;
+    height: 78px;
+    position: absolute;
+    left: 21px;
+    top: 259px;
+    z-index: 2;
+}
+
+#d_equip3 {
+    width: 78px;
+    height: 78px;
+    position: absolute;
+    left: 263px;
+    top: 259px;
+    z-index: 2;
+}
+
+.d_equipImg {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 9px;
+    top: 9px;
+}
+
+.expDouble {
+    width: 63px;
+    height: 23px;
+    background-image: url(../res/adv/exp2.png);
+    position: absolute;
+    right: 6px;
+    bottom: 2px;
+    -webkit-animation: no 4s infinite ease-in-out;
+}
+
+#takeEndBg {
+    width: 330px;
+    height: 90px;
+    background-image: url(../res/friend/bg.png);
+    position: absolute;
+    left: 38px;
+    top: 100px;
+    color: white;
+    text-align: center;
+    padding-top: 8px;
+    background-repeat: no-repeat;
+    line-height: 24px;
+}
+
+
+.t_jiao {
+    width: 113px;
+    height: 78px;
+    background: url(../res/dialog/wj.png);
+    position: absolute;
+}
+
+.t_shangjiao {
+}
+
+.t_xiajiao {
+    right: 0;
+    -webkit-transform: scaleX(-1);
+}
+
+.t_zuojiao {
+    bottom: 0;
+    -webkit-transform: scaleY(-1);
+}
+
+.t_youjiao {
+    bottom: 0;
+    right: 0;
+    -webkit-transform: scaleY(-1) scaleX(-1);
+}
+
+.t_shangwaibian {
+    width: 251px;
+    height: 78px;
+    background: url(../res/dialog/wjBian1.png) repeat-x;
+    position: absolute;
+    left: 113px;
+}
+
+.t_xiawaibian {
+    width: 251px;
+    height: 78px;
+    background: url(../res/dialog/wjBian1.png) repeat-x;
+    -webkit-transform: scaleY(-1);
+    bottom: 0;
+    position: absolute;
+    left: 113px;
+}
+
+.t_zuowaibian {
+    width: 76px;
+    height: 197px;
+    background: url(../res/dialog/wjBian2.png) repeat-y;
+    position: absolute;
+    top: 78px;
+}
+
+.t_youwaibian {
+    width: 76px;
+    height: 197px;
+    background: url(../res/dialog/wjBian2.png) repeat-y;
+    -webkit-transform: scaleX(-1);
+    position: absolute;
+    top: 78px;
+    right: 0;
+}
+
+#t_title {
+    position: absolute;
+    z-index: 1;
+    left: 80px;
+}
+
+#t_titleLeft {
+    width: 112px;
+    height: 61px;
+    background: url(../res/dialog/title1.png);
+    float: left;
+}
+
+#t_titleCenter {
+    width: 114px;
+    height: 51px;
+    background: url(../res/dialog/title2.png);
+    float: left;
+    margin-top: 5px;
+}
+
+#t_titleRight {
+    width: 112px;
+    height: 61px;
+    background: url(../res/dialog/title1.png);
+    float: left;
+    -webkit-transform: scaleX(-1);
+}
+
+#t_titleContext {
+    background: url(../res/dialog/context.png);
+    margin-top: 11px;
+    height: 28px;
+    width: 114px;
+}
+
+#friendHeroNum {
+    position: absolute;
+    top: 29px;
+    left: 90px;
+    width: 200px;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    z-index: 1;
+    font-weight: bold;
+    text-shadow: -1px -1px 0 #000,1px -1px #000,1px 1px #000,-1px 1px #000;
+}
+
+#teamHeroLead {
+    width: 62px;
+    background-image: url(../res/lineup/lead.png);
+    height: 49px;
+    position: absolute;
+    bottom: 20px;
+    left: -1px;
+    z-index: 1;
+}
+
+#bossSomething {
+    position: absolute;
+    left: 510px;
+    top: 50px;
+    z-index: 2;
+    color: white;
+    width: 170px;
+    font-size: 15px;
+}
+
+#bossBtn1 {
+    width: 60px;
+    height: 60px;
+    background-image: url(../res/arena/4.png);
+    position: absolute;
+    left: 527px;
+    top: 246px;
+    z-index: 2;
+}
+
+#bossBtn2 {
+    width: 60px;
+    height: 60px;
+    background-image: url(../res/arena/1.png);
+    position: absolute;
+    left: 604px;
+    top: 246px;
+    z-index: 2;
+}
+
+#b_rankList1, #b_rankList2, #b_rankList3, #b_rankList4 {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    left: 80px;
+    top: 82px;
+    font-size: 18px;
+    line-height: 35px;
+}
+
+#b_rankList2 {
+    left: 210px;
+    text-align: center;
+}
+
+#b_rankList3 {
+    left: 320px;
+    text-align: center;
+}
+
+#b_rankList4 {
+    left: 410px;
+    text-align: center;
+}
+
+.findName {
+    position: absolute;
+    right: 9px;
+    bottom: 6px;
+    color: white;
+    font-size: 14px;
+    text-shadow: -1px -1px 0 #000,1px -1px #000,1px 1px #000,-1px 1px #000;
+    z-index: 1;
+    white-space: nowrap;
+}
+
+#under {
+    width: 800px;
+    height: 480px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+
+#underCity {
+    background-image: url(../res/under/bg.png);
+    width: 772px;
+    height: 398px;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+}
+
+#underDetail {
+    width: 189px;
+    height: 277px;
+    color: white;
+    position: absolute;
+    left: 549px;
+    top: 104px;
+    font-size: 15px;
+}
+
+#underSelect {
+    position: absolute;
+    color: #26E50E;
+    left: 304px;
+    top: 122px;
+    width: 175px;
+    text-align: center;
+}
+
+#underSelectBtn {
+    width: 156px;
+    height: 80px;
+    background-image: url(../res/arena/bug.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 92px;
+    left: 410px;
+}
+
+#underUpAtk {
+    position: absolute;
+    left: 435px;
+    top: 233px;
+    color: white;
+    font-size: 15px;
+}
+
+#underUpHp {
+    position: absolute;
+    left: 248px;
+    top: 233px;
+    color: white;
+    font-size: 15px;
+}
+
+#underDrug {
+    width: 96px;
+    height: 102px;
+    background-image: url(../res/under/drug.png);
+    position: absolute;
+    left: 342px;
+    top: 180px;
+}
+
+#underTime {
+    position: absolute;
+    left: 302px;
+    top: 364px;
+    width: 176px;
+    color: white;
+    text-align: center;
+}
+
+#underReward {
+    width: 60px;
+    height: 60px;
+    background-image: url(../res/arena/1.png);
+    position: absolute;
+    top: 215px;
+    left: 62px;
+}
+
+#underBtn {
+    left: 340px;
+    bottom: 13px;
+}
+
+#underUserData {
+    width: 190px;
+    height: 210px;
+    position: absolute;
+    left: 42px;
+    top: 97px;
+}
+
+.underNick {
+    color: #F2A03A;
+}
+
+.underN {
+    color: #b7afaf;
+    position: absolute;
+    right: 10px;
+}
+
+#underMyData {
+    position: absolute;
+    width: 185px;
+    top: 344px;
+    left: 42px;
+}
+
+#underDrugTime {
+    width: 64px;
+    height: 25px;
+    background-image: url(../res/under/num.png);
+    position: absolute;
+    left: 17px;
+    top: 27px;
+    display: none;
+}
+
+#drugBg {
+    width: 324px;
+    height: 78px;
+    background-image: url(../res/under/drugBg.png);
+}
+
+#drugTitle {
+    color: white;
+    position: absolute;
+    left: 110px;
+    top: 10px;
+}
+
+#drugBg {
+    position: absolute;
+    top: 45px;
+    left: 23px;
+}
+
+#coinDrug {
+    color: white;
+    position: absolute;
+    top: 9px;
+    left: 10px;
+}
+
+#coinDrugNum {
+    width: 128px;
+    position: absolute;
+    text-align: center;
+    left: 182px;
+    color: #26E50E;
+}
+
+#goldDrug {
+    color: white;
+    position: absolute;
+    top: 46px;
+    left: 10px;
+}
+
+#goldDrugNum {
+    width: 128px;
+    position: absolute;
+    text-align: center;
+    left: 182px;
+    color: #26E50E;
+}
+
+#drugCoinCheck {
+    width: 37px;
+    height: 31px;
+    background-image: url(../res/public/choose.png);
+    position: absolute;
+    left: 331px;
+    top: 4px;
+    background-position-x: -37px;
+}
+
+#drugGoldCheck {
+    width: 37px;
+    height: 31px;
+    background-image: url(../res/public/choose.png);
+    position: absolute;
+    left: 331px;
+    top: 43px;
+}
+
+#underCancel {
+    right: 264px;
+}
+
+#underDrugBtn {
+    right: 125px;
+}
+
+#underSelectBg {
+    width: 430px;
+    height: 285px;
+    background-image: url(../res/under/select.png);
+    position: absolute;
+    z-index: 20;
+}
+
+.underSelectCheck {
+    width: 37px;
+    height: 31px;
+    background-image: url(../res/public/choose.png);
+}
+
+#selectTable {
+    width: 430px;
+    height: 210px;
+    position: absolute;
+    top: 37px;
+    left: 10px;
+}
+
+.underLock {
+    width: 37px;
+    height: 31px;
+    background-image: url(../res/under/lock.png);
+}
+
+#underSelectClose {
+    bottom: -15px;
+    right: 180px;
+}
+
+#tempMessTitle {
+    position: absolute;
+    font-size: 20px;
+    color: white;
+    width: 400px;
+    text-align: center;
+    top: 3px;
+}
+
+#tempMessContent {
+    position: relative;
+    width: 360px;
+    text-indent: 20px;
+    font-size: 18px;
+    color: white;
+    top: 6px;
+    left: 20px;
+}
+
+#tempMessageAll {
+    width: 407px;
+    position: relative;
+    top: 16px;
+}
+
+#NewGuidDiv {
+    position: absolute;
+    z-index: 100000;
+    width: 100%;
+    height: 100%;
+    display: none;
+    top: 0px;
+    left: 0px;
+}
+
+#NewGuidMask {
+    opacity: 0.0;
+    background: black;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+
+#NewGuidMask2 {
+    opacity: 0.0;
+    background: black;
+    position: absolute;
+    z-index: 99999;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+#NewGuidBox {
+    position: absolute;
+    z-index: 2;
+    background: url(../res/newguid/newbox.png) no-repeat;
+    width: 332px;
+    height: 218px;
+    color: #ff0000;
+    word-break: break-all;
+    font-size: 18px;
+    text-shadow: 1px 1px 1px #000;
+    left: 0px;
+    bottom: 40px;
+}
+
+#NewGuidBox font {
+    position: absolute;
+    width: 175px;
+    left: 140px;
+    top: 70px;
+}
+
+#Arrow {
+    position: absolute;
+    width: 74px;
+    height: 87px;
+    background: url(../res/newguid/arrow.png) no-repeat;
+    z-index: 9999999;
+}
+
+#leichongAll {
+    z-index: 1;
+    font-size: 23px;
+    color: white;
+    position: absolute;
+    left: -24px;
+    top: 346px;
+    text-shadow: -1px -1px 0 #000,1px -1px #000,1px 1px #000,-1px 1px #000;
+    width: 500px;
+    white-space: nowrap;
+}
+
+#eye {
+    width: 59px;
+    height: 36px;
+    background-image: url(../res/newguid/eye.png);
+    position: absolute;
+    top: 83px;
+    left: 54px;
+}
+
+#newSelect {
+    width: 71px;
+    height: 72px;
+    background-image: url(../res/newguid/select.png);
+    position: absolute;
+    z-index: 9999999;
+}
+
+#newFunction {
+    width: 476px;
+    height: 272px;
+    background-image: url(../res/newguid/new.png);
+    position: absolute;
+    z-index: 99999;
+}
+
+.newBuild {
+    width: 134px;
+    height: 133px;
+    position: absolute;
+    top: 66px;
+}
+
+.adv_num {
+    position: absolute;
+    right: 8px;
+    bottom: 6px;
+    color: #26E50E;
+}
+
+.adv_img {
+    width: 78px;
+    height: 78px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#adv_head0 {
+    width: 78px;
+    height: 78px;
+    position: absolute;
+    left: 45px;
+    top: 109px;
+}
+
+#adv_head1 {
+    width: 78px;
+    height: 78px;
+    position: absolute;
+    left: 123px;
+    top: 109px;
+}
+
+#adv_head2 {
+    width: 78px;
+    height: 78px;
+    position: absolute;
+    left: 201px;
+    top: 109px;
+}
+
+#adv_head3 {
+    width: 78px;
+    height: 78px;
+    position: absolute;
+    left: 279px;
+    top: 109px;
+}
+
+#adv_head4 {
+    width: 78px;
+    height: 78px;
+    position: absolute;
+    left: 357px;
+    top: 109px;
+}
+
+#adv_bg {
+    width: 476px;
+    height: 400px;
+    background-image: url(../res/adv/itemBg.png);
+    position: absolute;
+    z-index: 20;
+}
+
+#adv_title {
+    position: absolute;
+    color: white;
+    top: 77px;
+    left: 60px;
+}
+
+#adv_detail {
+    position: absolute;
+    top: 286px;
+    color: white;
+    left: 61px;
+}
+
+#adv_src {
+    position: absolute;
+    top: 225px;
+    color: white;
+    left: 60px;
+}
+
+#adv_numAll {
+    position: absolute;
+    color: white;
+    right: 58px;
+    top: 78px;
+}
+
+#newguidSomething {
+    width: 232px;
+    height: 99px;
+    background-image: url(../res/newguid/something.png);
+    position: absolute;
+    z-index: 99999;
+}
+
+
+.SystemItem {
+    left: 35px;
+    position: relative;
+    width: 330px;
+    height: 78px;
+    background: url(../res/system/bg.png) no-repeat -330px -78px;
+    margin-bottom: -2px;
+    margin-top: 5px;
+    margin-right: 8px;
+    font-size: 16px;
+    text-shadow: -1px -1px 0 #000,1px -1px #000,1px 1px #000,-1px 1px #000;
+    float: left;
+}
+
+.SystemItem .title {
+    padding: 9px 0 0 90px;
+    color: #ffff00;
+    line-height: 30px;
+}
+
+.OpenItem {
+}
+
+.SystemItem .checkbox {
+    position: absolute;
+    z-index: 1;
+    background: url(../res/friend/accept.png) no-repeat;
+    width: 37px;
+    height: 32px;
+    top: 37px;
+    left: 265px;
+}
+
+.SystemItem .close {
+    position: absolute;
+    z-index: 1;
+    background: url(../res/friend/delete.png) no-repeat;
+    width: 37px;
+    height: 32px;
+    top: 37px;
+    left: 265px;
+}
+
+#CDKeyText {
+    position: absolute;
+    background: url(../res/system/cdkeybox.png) no-repeat;
+    width: 350px;
+    height: 31px;
+    top: 126px;
+    left: 63px;
+}
+
+#CdKeyInput {
+    text-align: center;
+    width: 323px;
+    font-size: 16px;
+    text-shadow: -1px -1px 0 black,1px -1px black,1px 1px black,-1px 1px black;
+    color: white;
+    position: absolute;
+    left: 11px;
+    top: 2px;
+    border: solid 0px;
+    background-color: transparent;
+}
+
+.taskFinish {
+    width: 46px;
+    height: 44px;
+    background-image: url(../res/task/task_finished.png);
+    position: absolute;
+    z-index: 1;
+    top: 8px;
+    right: -6px;
+}
+
+.iconLight {
+    background-image: url(../res/public/light2.png);
+    width: 36px;
+    height: 39px;
+    position: absolute;
+    z-index: 2;
+    left: 105px;
+    top: 18px;
+    font-weight: bold;
+    line-height: 39px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+.iconLightSmall {
+    background-image: url(../res/public/light.png);
+    width: 24px;
+    height: 26px;
+    position: absolute;
+    z-index: 2;
+    right: 1px;
+    top: 4px;
+}
+
+#nowLeadValue {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    top: 30px;
+    left: 80px;
+    text-shadow: -1px -1px 0 #000,1px -1px #000,1px 1px #000,-1px 1px #000;
+}
+
+.heroZhan {
+    width: 27px;
+    height: 29px;
+    background-image: url(../res/public/zhan.png);
+    position: absolute;
+    z-index: 1;
+    top: 9px;
+    left: 225px;
+}
+
+#equipDialog_Renxing {
+    position: absolute;
+    top: 237px;
+}
+
+#equipDialog_Baoji {
+    position: absolute;
+    top: 206px;
+}
+
+#equipDialog_Miss {
+    position: absolute;
+    top: 177px;
+}
+
+#equipDialog_Hit {
+    position: absolute;
+    top: 149px;
+}
+
+#equipDialog_Def2 {
+    position: absolute;
+    top: 121px;
+}
+
+#equipDialog_Def {
+    position: absolute;
+    top: 93px;
+}
+
+#equipDialog_Atk {
+    position: absolute;
+    top: 66px;
+}
+
+#bookList {
+    width: 678px;
+    height: 335px;
+    position: absolute;
+    left: 30px;
+}
+
+.bookHead {
+    margin-left: 15px;
+    margin-top: 3px;
+    width: 78px;
+    height: 78px;
+    position: relative;
+    float: left;
+}
+/*队伍详细*/
+#teamDetail {
+    width: 111px;
+    height: 420px;
+    background-image: url(../res/detail/teamBg.png);
+    position: absolute;
+    z-index: 19;
+}
+
+#teamDetailSelect {
+    width: 80px;
+    height: 80px;
+    background-image: url(../res/detail/select.png);
+    position: absolute;
+    margin-top: 16px;
+    margin-left: 19px;
+    z-index: 21;
+}
+
+#teamPower {
+    width: 138px;
+    height: 67px;
+    background-image: url(../res/detail/power.png);
+    position: absolute;
+    left: 109px;
+    top: -12px;
+    z-index: 22;
+}
+
+#tempPowerContent {
+    width: 86px;
+    height: 34px;
+    top: 18px;
+    left: 42px;
+    text-align: center;
+    line-height: 34px;
+    font-size: 20px;
+    position: absolute;
+    color: yellow;
+}
+
+#bag_sell {
+    background-image: url(../res/public/icon/bagSell.png);
+    top: 167px;
+}
+
+#rechargeIcon {
+    background-image: url(../res/public/icon/recharge.png);
+}
+
+.rechargeMoney {
+    position: absolute;
+    top: 12px;
+    right: 21px;
+    z-index: 1;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.rechargeLeft {
+    position: absolute;
+    top: 44px;
+    right: 21px;
+    z-index: 1;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.rechargeSmallIcon {
+    height: 46px;
+    width: 46px;
+    position: absolute;
+    left: 1px;
+    top: 1px;
+}
+
+.lineup_job {
+    width: 30px;
+    height: 28px;
+    background: url(../res/public/job.png);
+    position: absolute;
+    left: 68px;
+    bottom: 8px;
+    z-index: 1;
+}
+
+.gonglue_job {
+    width: 30px;
+    height: 28px;
+    background: url(../res/public/job.png);
+    position: relative;
+    display: inline-block;
+    vertical-align: text-bottom;
+}
+
+#goldGoldBg {
+    width: 536px;
+    height: 329px;
+    background-image: url(../res/activity/goldGod.png);
+    margin-left: 3px;
+}
+
+#nowGod {
+    width: 219px;
+    height: 50px;
+    position: absolute;
+    left: 314px;
+    top: 55px;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+}
+
+#godList {
+    width: 273px;
+    height: 83px;
+    position: absolute;
+    top: 222px;
+    left: 34px;
+    color: white;
+    font-size: 15px;
+}
+
+#myGod {
+    width: 164px;
+    height: 75px;
+    position: absolute;
+    left: 236px;
+    top: 116px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #391400;
+}
+
+#godBtn {
+    width: 131px;
+    height: 78px;
+    background-image: url(../res/activity/goldBtn.png);
+    position: absolute;
+    left: 357px;
+    top: 244px;
+}
+
+#godTimes {
+    width: 167px;
+    height: 22px;
+    position: absolute;
+    left: 337px;
+    top: 216px;
+    text-align: center;
+    color: white;
+}
+
+#submitName {
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 3px 3px 4px #000;
+    position: absolute;
+    left: 13px;
+    top: 6px;
+}
+
+#FAQinput {
+    background: transparent;
+    border: none;
+    width: 375px;
+    height: 63px;
+    position: absolute;
+    top: 37px;
+    font-size: 15px;
+    color: white;
+    resize: none;
+    overflow: hidden;
+}
+/*******新公告***********/
+#notice {
+    width: 700px;
+    background-image: url(../res/activity/bg.png);
+    height: 460px;
+    position: absolute;
+    z-index: 10;
+    display: none;
+}
+
+#noticeContain {
+    width: 570px;
+    height: 332px;
+    position: absolute;
+    left: 70px;
+    top: 61px;
+    /*overflow:scroll;
+-webkit-overflow-scrolling:touch;*/
+}
+
+.noticeListItem {
+    width: 244px;
+    height: 34px;
+    float: left;
+    margin-bottom: 7px;
+    padding-left: 20px;
+    background-image: url(../res/login/noticeBg.png);
+    line-height: 35px;
+    margin-left: 8px;
+}
+
+.noticeListItem font {
+    color: #268FD3;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#notice_scroller ul {
+    margin-top: 16px;
+}
+
+.noticeHr {
+    background-color: #B16C45;
+    height: 3px;
+    position: relative;
+    border: none;
+    width: 100%;
+    top: 8px;
+    margin-bottom: 13px;
+}
+
+.noticeName {
+    color: #650200;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
+
+.noticeDetailItem {
+    margin-top: 13px;
+}
+
+#noticeDetailContain {
+    width: 100%;
+}
+
+#noticeTitle {
+    width: 138px;
+    height: 40px;
+    background-image: url(../res/login/noticeTitle.png);
+    position: absolute;
+    left: 275px;
+    top: 14px;
+}
+
+#noticeClose {
+    height: 53px;
+    background: url(../res/dialog/close.png);
+    width: 53px;
+    position: absolute;
+    top: 10px;
+    right: 8px;
+}
+
+#noticeTop {
+    width: 60px;
+    height: 60px;
+    background-image: url(../res/login/top.png);
+    position: absolute;
+    bottom: 37px;
+    right: 11px;
+}
+
+#notice_wrapper {
+    position: absolute;
+    width: 475px;
+    height: 274px;
+}
+
+#notice_content2 {
+    width: 446px;
+    height: auto;
+    color: white;
+    position: absolute;
+    left: 14px;
+    top: 10px;
+    line-height: 22px;
+    font-size: 18px;
+}
+
+#notice_wrapper {
+    width: 545px;
+    height: 332px;
+    position: absolute;
+    left: 2px;
+}
+
+#message_wrapper {
+    width: 402px;
+    height: 140px;
+}
+
+.goodDetail_valueTime {
+    position: absolute;
+    right: 20px;
+    top: 12px;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.notice_item {
+    margin-left: 2em;
+}
+
+.fallBg {
+    background-image: url(../res/fall/bg.png);
+    width: 660px;
+    height: 148px;
+    position: relative;
+    margin-top: 15px;
+    margin-left: 44px;
+}
+
+.fallTitle {
+    color: #26E50E;
+    font-size: 18px;
+    position: absolute;
+    top: 15px;
+    left: 30px;
+}
+
+.fallTime {
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    top: 15px;
+    right: 31px;
+}
+
+.fallRepeat {
+    color: #26E50E;
+    font-size: 18px;
+    position: absolute;
+    top: 53px;
+    right: 22px;
+    font-weight: bold;
+    width: 90px;
+    text-align: center;
+}
+
+.fallObj {
+    width: 78px;
+    height: 78px;
+    background-image: url(../res/head/headBg.png);
+    position: absolute;
+    left: 459px;
+    top: 55px;
+}
+
+.fallSrcItem {
+    width: 78px;
+    height: 78px;
+    background-image: url(../res/head/headBg.png);
+    float: left;
+    margin-top: 6px;
+    margin-left: 4px;
+    position: relative;
+}
+
+.fallSrc {
+    width: 423px;
+    height: 87px;
+    position: absolute;
+    top: 48px;
+    left: 20px;
+}
+
+.fallNum {
+    position: absolute;
+    right: 10px;
+    bottom: 6px;
+    color: #26E50E;
+    font-size: 14px;
+}
+
+.canFall {
+    background-image: url(../res/adv/something.png);
+    width: 64px;
+    height: 18px;
+    position: absolute;
+    top: 8px;
+    left: 7px;
+}
+
+#fallBtn {
+    width: 131px;
+    height: 78px;
+    background-image: url(../res/fall/btn.png);
+    position: absolute;
+    left: 360px;
+    top: 245px;
+}
